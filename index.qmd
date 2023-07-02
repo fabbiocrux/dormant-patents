@@ -75,17 +75,30 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 We have many options in **Web Of Science**:
 
 1.  Core Collection
-2.  Web Of Science
+2.  PAtent databases
 
+<br>
 
 ::: columns
-::: {.column width="30%"}
-![Core Collections](figures/01-UL-databases/03.png){alt="Core Collections" fig-align="center"}
+::: {.column width="50%"}
+![Core Collections](figures/01-UL-databases/03.png){fig-align="center"}
 :::
 
-::: {.column width="30%"}
+::: {.column width="50%"}
 ![Patent databases](figures/01-UL-databases/04.png){fig-align="center"}
 :::
 :::
 
 ## Advanced Search Query Builder
+
+term
+
+:   this is a definitinos
+
+::: columns
+columnf deux
+
+::: {.column width="50%"}
+test
+:::
+:::
