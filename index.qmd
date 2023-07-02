@@ -25,7 +25,6 @@ format:
       - figures/
 ---
 
-
 ```{r setup, include=FALSE}
 # Load packages -----
 library(tidyverse)
@@ -49,8 +48,6 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 ```
 
-
-
 # Flash Course: Technology Landscape
 
 # Presentation of the bibliometric tools
@@ -59,23 +56,36 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 # Step 2: Getting into the action.
 
-## Connect to the UL ENT 
+## Connect to the UL ENT
 
-1. Use your UL account to acces to the databases
+1.  Use your UL account to acces to the databases
 
-![](figures/01.jpg)
-
-[https://ent.univ-lorraine.fr/#BU](https://ent.univ-lorraine.fr/#BU) -> BU Ingénieurs Brabois
-
+![<https://ent.univ-lorraine.fr/#BU> -\> BU Ingénieurs Brabois](figures/01.jpg)
 
 ## Access to the 'Ressources en Ligne'
 
 ![Resource online of the UL](figures/01-UL-databases/01.png)
 
-## Connect to the databases of the UL
-
-
-
-## Web of Science / Clarivate
+## UL databases → Web of Science
 
 ![Look for the 'Web of Science' database](figures/01-UL-databases/02.png)
+
+## Web of Science →
+
+We have many options in **Web Of Science**:
+
+1.  Core Collection
+2.  Web Of Science
+
+
+::: columns
+::: {.column width="30%"}
+![Core Collections](figures/01-UL-databases/03.png){alt="Core Collections" fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![Patent databases](figures/01-UL-databases/04.png){fig-align="center"}
+:::
+:::
+
+## Advanced Search Query Builder
