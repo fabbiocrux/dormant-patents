@@ -1,0 +1,82 @@
+---
+title: "Flash Course:<br>**Technological watch and prospective**"
+subtitle: "Research & Technology Bibliometric Landscapes Networks"  
+email: "cruzsanc1@univ-lorraine.fr"
+author: 
+  - "Prof. Mauricio CAMARGO"
+  - "Fabio A. CRUZ SANCHEZ"
+date: '`r Sys.Date()`'
+format: 
+  revealjs:
+    slide-number: c/t
+    transition: none
+    width: 1600
+    height: 900
+    logo: "figures/logos/Orion.png"
+    footer: "[Think Innovation Week !](https://rstudio-conf-2022.github.io/get-started-quarto/)"
+    css: ["theme/theme.css"]
+    theme: simple
+    echo: true
+    toc: true
+    toc-title: Agenda for today
+    center: false
+---
+
+
+```{r setup, include=FALSE}
+# Load packages -----
+library(tidyverse)
+library(xaringanExtra)
+library(xaringanthemer)
+library(fontawesome)
+library(here)
+library(vembedr)
+#library(xaringanBuilder)
+
+#source(here("xaringan-themer.R"))
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE,
+  fig.align='center',
+  out.width = '75%' 
+)
+
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+xaringanExtra::use_xaringan_extra(c("share_again"))
+
+```
+
+
+
+# Flash Course: Technology Landscape
+
+# Presentation of the bibliometric tools
+
+## Vosviewer
+
+1. Connect to the databases of the UL
+
+# Step 2: Getting int action.
+
+## Connecting to the ENT
+
+[https://ent.univ-lorraine.fr/#BU](https://ent.univ-lorraine.fr/#BU) -> BU Ingénieurs Brabois
+
+```{r, }
+knitr::include_graphics("figures/01.jpg")
+```
+
+
+## Connect to the databases of the UL
+
+## Web of Science / Clarivate
+
