@@ -221,7 +221,10 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ::: {.column width="50%"}
 
-{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="100%" height="300" >}}
+```{r, include=TRUE}
+countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
+          margin = "5px",)
+```
 
 :::
 :::
@@ -237,7 +240,11 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ::: {.column width="50%"}
 
-{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="100%" height="300" >}}
+```{r, include=TRUE}
+countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
+          margin = "5px",)
+```
+
 
 :::
 :::
