@@ -39,6 +39,7 @@ filters:
 # Load packages -----
 library(tidyverse)
 library(here)
+library(countdown)
 
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
@@ -198,7 +199,10 @@ van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program
 
 ::: {.column width="50%"}
 
-{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="100%" height="300" >}}
+```{r, include=TRUE}
+countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
+          margin = "5px",)
+```
 
 :::
 
