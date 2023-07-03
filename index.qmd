@@ -29,8 +29,7 @@ format:
     #subtitle-as-header: true
     sc-sb-title: false
     footer: ' '
-    resource-path: 
-      - figures/
+    chalkboard: true
 filters:
   - reveal-header
 ---
@@ -180,15 +179,17 @@ So..
 ## Bibliometric mapping: Vosviewer
 
 
-```{r, out.width='100%'}
+```{r, out.width='60%'}
 knitr::include_graphics("figures/vos/09.jpg")
 ```
 
-
-van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. https://doi.org/10.1007/s11192-009-0146-3
-
-
 [Download at https://www.vosviewer.com/](https://www.vosviewer.com/)
+
+:::{.footnote}
+van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. https://doi.org/10.1007/s11192-009-0146-3
+:::
+
+
 
 
 # Step 2a: Research conceptualization
