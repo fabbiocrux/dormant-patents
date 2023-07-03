@@ -224,7 +224,7 @@ van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program
 
 
 
-### Tutorials
+## Tutorials
 
 1. [Access to WoS database](#access)
 1. [Web of Science Interface](#wos)
@@ -253,6 +253,15 @@ Use your UL account to access to the databases
 ![Look for the 'Web of Science' database](figures/01-UL-databases/02.png)
 
 ---
+
+### Tutorials
+
+1. [Access to WoS database](#access)
+1. [Web of Science Interface](#wos)
+1. [Results on WoS plateform](#wos-results)
+1. [Web of Science: Export results](#wos-export)
+1. [Scientific Network visualization](#sci-vos)
+1. [Patent Network visualization](#pat-vos)
 
 
 ## Web of Science Interface {#wos}
@@ -306,6 +315,14 @@ knitr::include_graphics("figures/09.jpg")
 
 ---
 
+### Tutorials
+
+1. [Access to WoS database](#access)
+1. [Web of Science Interface](#wos)
+1. [Results on WoS plateform](#wos-results)
+1. [Web of Science: Export results](#wos-export)
+1. [Scientific Network visualization](#sci-vos)
+1. [Patent Network visualization](#pat-vos)
 
 
 ## Results on WoS plateform {#wos-results}
@@ -363,6 +380,17 @@ knitr::include_graphics("figures/17.jpg")
 knitr::include_graphics("figures/18.jpg")
 ```
 
+---
+
+### Tutorials
+
+1. [Access to WoS database](#access)
+1. [Web of Science Interface](#wos)
+1. [Results on WoS plateform](#wos-results)
+1. [Web of Science: Export results](#wos-export)
+1. [Scientific Network visualization](#sci-vos)
+1. [Patent Network visualization](#pat-vos)
+
 
 ---
 
@@ -385,6 +413,20 @@ knitr::include_graphics("figures/12.jpg")
 
 
 ---
+
+### Tutorials
+
+1. [Access to WoS database](#access)
+1. [Web of Science Interface](#wos)
+1. [Results on WoS plateform](#wos-results)
+1. [Web of Science: Export results](#wos-export)
+1. [Scientific Network visualization](#sci-vos)
+1. [Patent Network visualization](#pat-vos)
+
+
+
+---
+
 
 ### Export Full record
 
