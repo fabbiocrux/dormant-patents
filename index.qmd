@@ -12,8 +12,6 @@ format:
     transition: none
     width: 1600
     height: 900
-    logo: "figures/logos/Orion.png"
-    footer: "[Think Innovation Week !](https://rstudio-conf-2022.github.io/get-started-quarto/)"
     css: ["theme/theme.css"]
     theme: simple
     echo: true
@@ -24,8 +22,14 @@ format:
     number-sections: true
     fig-align: center
     #theme: [default, theme/custom.css]
+    logo: "figures/logos/Orion.png"
+    header-logo: "figures/logos/ENSGSI.png"
+    header: "Think Innovation Week 2023"
+    footer: ' '
     resource-path: 
       - figures/
+filters:
+  - reveal-header
 ---
 
 ```{r setup, include=FALSE}
