@@ -50,6 +50,41 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 # Flash Course: Technology Landscape
 
+## Technology Readiness → Maturity
+
+## Technology Readiness → Levels
+
+Framework developed in the Aeronautical field.
+
+![[Technology Readiness Levels (TRL)](https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shaping_the_Future/Technology_Readiness_Levels_TRL)](figures/TRL-00.png)
+
+## Technology Readiness → The Valley of Death
+
+![](figures/TRL-01.png){width="70%" fig-align="center"}
+
+::: aside
+Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
+:::
+
+## Technology Readiness → Challenges TRL4 - TRL7
+
+![](figures/TRL-03.png){width="70%" fig-align="center"}
+
+::: aside
+Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
+:::
+
+## Technology Readiness → Challenges TRL4 - TRL7
+
+-   There is a **lack of tools** that can provide insights into **technology-integration** issues at an early R&D phase (TRL 1-5).
+-   This results in a **mismatch between information** need and availability and **complicates decision-making**.
+-   The process requires an **interdisciplinary approach**. The right combination of skills and expertise may not always be available
+
+## Technology Readiness → 
+
+![](figures/TRL-04.png){width="70%" fig-align="center"}
+
+
 # Presentation of the bibliometric tools
 
 ## Vosviewer
@@ -72,20 +107,17 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 ## Web of Science →
 
-We have many options in **Web Of Science**:
-
-1.  Core Collection
-2.  PAtent databases
+We'll use two options in **Web Of Science**:
 
 <br>
 
 ::: columns
 ::: {.column width="50%"}
-![Core Collections](figures/01-UL-databases/03.png){fig-align="center"}
+![**Core Collections**](figures/01-UL-databases/03.png){fig-align="center"}
 :::
 
 ::: {.column width="50%"}
-![Patent databases](figures/01-UL-databases/04.png){fig-align="center"}
+![**Derwent Innovations Index**](figures/01-UL-databases/04.png){fig-align="center"}
 :::
 :::
 
