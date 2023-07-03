@@ -9,11 +9,12 @@ date: '`r Sys.Date()`'
 format: 
   revealjs:
     slide-number: c/t
+    controls: true
     transition: none
     width: 1600
     height: 900
-    css: ["theme/theme.css"]
-    theme: simple
+#    css: ["theme/custom.scss"]
+#    theme: simple
     echo: true
     toc: true
     toc-title: Agenda for today
@@ -21,10 +22,12 @@ format:
     center: false
     number-sections: true
     fig-align: center
-    #theme: [default, theme/custom.css]
+    theme: [default, theme/custom.scss]
     logo: "figures/logos/Orion.png"
     header-logo: "figures/logos/ENSGSI.png"
-    header: "Think Innovation Week 2023"
+    header: '[Think Innovation Week 2023](#/TOC)'
+    #subtitle-as-header: true
+    sc-sb-title: false
     footer: ' '
     resource-path: 
       - figures/
@@ -57,7 +60,15 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 # Flash Course: Technology Landscape
 
-## Technology Readiness → Maturity
+## Technology Readiness → Maturity {.nostretch}
+
+The industrial emergence mapping framework.
+
+![](figures/00.png){width=60% fig-align='center'}
+
+:::{.footnote}
+Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
+:::
 
 ## Technology Readiness → Levels
 
@@ -133,8 +144,13 @@ An overview on the space of patents enabling :
 ![**Expand the State of the Art via the patent analysis**](figures/TRL-06.png){fig-align="center"}
 
 
+---
 
-## Are you ready?
+:::{.r-fit-text}
+Are you ready?
+:::
+
+---
 
 
 

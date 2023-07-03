@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+// fonts
+$font-family-sans-serif: Lato, sans-serif !default;
+
+// colors
+$body-bg: #fff !default;
+$body-color: #000 !default;
+$link-color: #00008b !default;
+$selection-bg: rgba(0, 0, 0, 0.99);
+
+// headings
+$presentation-heading-font: "News Cycle", sans-serif !default;
+
+
+.footnote {
+  position: absolute;
+  bottom: 0px;
+  padding-right: 4em;
+  font-size: 60%;
+}
+
+.small {
+  font-size: 90%;
+}
+.Large , .Large .remark-code, .Large .remark-inline-code {
+  font-size: 144%;
+}
+.large , .large .remark-code, .large .remark-inline-code {
+  font-size: 120%;
+}
+.small , .small .remark-code, .small .remark-inline-code {
+  font-size: 90%;
+}
+.footnotesize, 
+    .footnotesize .remark-code, .footnotesize .remark-inline-code {
+  font-size: 80%;
+}
+.scriptsize , .scriptsize .remark-code, .scriptsize .remark-inline-code {
+  font-size: 70%;
+}
+.tiny , .tiny .remark-code, .tiny .remark-inline-code {
+  font-size: 60%;
+}
