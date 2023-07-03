@@ -599,7 +599,7 @@ knitr::include_graphics("figures/vos/11.jpg")
 
 
 
-# Patents Network visualization{(#pat-vos)}
+# Patents Network visualization{#pat-vos}
 
 
 ## Clarivate for Patents
