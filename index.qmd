@@ -206,12 +206,170 @@ Use your UL account to access to the databases
 ### 1.1 WoS database → Voilà 
 
 
----
+
 ## 2. Download scientific database
 
 ---
 
-### 2.1 Add data 
+### Web of Science: Simple research mode
+
+
+```{r, }
+knitr::include_graphics("figures/05.jpg")
+```
+
+---
+
+### Web of Science: Go for a Advance research
+
+
+```{r}
+knitr::include_graphics("figures/06.jpg")
+```
+
+---
+
+### Web of Science: Add you search query
+
+Remember the:  **Topic + Subject + Problem**
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/07.jpg")
+```
+
+---
+
+## Web of Science: Advance search
+
+But, take a look of the other type of searches 
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/08.jpg")
+```
+
+
+---
+
+## Web of Science: put the Search Equation
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/09.jpg")
+```
+
+---
+
+## Web of Science: Results
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/10.jpg")
+```
+
+
+---
+
+## Web of Science: Export results
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/11.jpg")
+```
+
+
+---
+
+## Web of Science: Select Tab Deliminated File
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/12.jpg")
+```
+
+
+---
+
+## Web of Science: Export Full record
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/13.jpg")
+```
+
+
+---
+
+## Web of Science: Analyze the Results
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/14.jpg")
+```
+
+
+---
+
+## Web of Science: Analyze the Results
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/14.jpg")
+```
+
+---
+
+## Web of Science: Analyze the Categories
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/15.jpg")
+```
+
+
+---
+
+## Web of Science: Analyze the Authors
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/16.jpg")
+```
+
+---
+
+## Web of Science: Analyze the Funding Agencies
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/17.jpg")
+```
+
+---
+
+## Web of Science: Analyze the Countries
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/18.jpg")
+```
+
+
+---
 
 
 
