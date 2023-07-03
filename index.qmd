@@ -163,39 +163,142 @@ An overview on the space of patents enabling :
 
 ## Vosviewer
 
-# Step 2: Getting into the action.
+[Download at https://www.vosviewer.com/](https://www.vosviewer.com/)
 
-## Connect to the UL ENT
+### Quick introduction {.center}
 
-1.  Use your UL account to acces to the databases
+{{< video https://www.youtube.com/embed/9dTWkNRxUtw width="70%" height="75%" >}}
+
+
+# Step 2a: 
+
+{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="70%" height="75%" >}}
+
+
+# Step 2b: 
+
+{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="70%" height="75%" >}}
+
+# Step 2c: Getting into the action.
+
+## 1. WoS database
+
+### 1.1 WoS database → Connect to the UL ENT
+
+Use your UL account to access to the databases
 
 ![<https://ent.univ-lorraine.fr/#BU> -\> BU Ingénieurs Brabois](figures/01.jpg)
 
-## Access to the 'Ressources en Ligne'
+---
+
+### 1.1 WoS database → Access to the 'Ressources en Ligne'
 
 ![Resource online of the UL](figures/01-UL-databases/01.png)
 
-## UL databases → Web of Science
+---
+
+### 1.1 WoS database → UL Web of Science
 
 ![Look for the 'Web of Science' database](figures/01-UL-databases/02.png)
 
-## Web of Science →
+---
 
-We'll use two options in **Web Of Science**:
+### 1.1 WoS database → Voilà 
+
+
+---
+## 2. Download scientific database
+
+---
+
+### 2.1 Add data 
+
+
+
+
+
+## 3. Scientific Network visualization
+
+```{r}
+knitr::include_graphics("figures/vos/01.jpg")
+```
+
+---
+
+## Add data: from `Bibliographic database file`
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/02.jpg")
+```
+
+---
+
+## Add data: from `Bibliographic database file`
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/03.jpg")
+```
+
+
+---
+
+## Add data: Select the `.txt` files from WoS
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/04.jpg")
+```
+
+
+
+---
+
+## Add data: Analysing Keyworkds
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/05.jpg")
+```
+
+
+---
+
+## Add data: Minimum number of Occurrencies for Keyworkds
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/06.jpg")
+```
+
+
+---
+
+## Add data: Keywords to be plotted
 
 <br>
 
 
-## Advanced Search Query Builder
+```{r}
+knitr::include_graphics("figures/vos/07.jpg")
+```
 
-term
 
-:   this is a definitinos
+---
 
-::: columns
-columnf deux
+## Add data: Verify if Keywords are correct
 
-::: {.column width="50%"}
-test
-:::
-:::
+Attention to the Redundancies
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/08.jpg")
+```
+
