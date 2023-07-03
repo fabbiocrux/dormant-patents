@@ -147,9 +147,11 @@ An overview on the space of patents enabling :
 
 ---
 
-:::{.r-fit-text}
-Are you ready?
+:::{.large}
+So..  
 :::
+
+![](https://media.giphy.com/media/xT39Db8zIOODTppk08/giphy-downsized-large.gif){width=50% fig-align=center}
 
 ---
 
