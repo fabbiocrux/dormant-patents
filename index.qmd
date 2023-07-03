@@ -22,6 +22,7 @@ format:
     toc-depth: 1
     center: false
     fig-align: center
+    #theme: [default, theme/custom.css]
     resource-path: 
       - figures/
 ---
@@ -115,20 +116,11 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 
 ## Main goal of Step 2
 
-1. Characterize the Patent 
-
-2. International Patent Classification IPC Code
-
-3. Patent Classification IPC visualization 
-
-
-#### Expected Result at the end of the day
-
 An overview on the space of patents enabling :  
 
 - Validating the relevance of your concepts 
 - Listing more cited patents 
-- Identifying key players (assignees ) and links
+- Identifying key players (assignees) and links
 
 
 ## Pedagogical objective for you!
@@ -170,20 +162,54 @@ An overview on the space of patents enabling :
 {{< video https://www.youtube.com/embed/9dTWkNRxUtw width="70%" height="75%" >}}
 
 
-# Step 2a: 
-
-{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="70%" height="75%" >}}
+# Step 2a: Research conceptualization
 
 
-# Step 2b: 
+::: columns
+::: {.column width="50%"}
+![Goal Step 2a : Define the research questions](figures/Step-2a.jpg){fig-align="center"}
+:::
 
-{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="70%" height="75%" >}}
+::: {.column width="50%"}
 
-# Step 2c: Getting into the action.
+{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="100%" height="300" >}}
 
-## 1. WoS database
+:::
 
-### 1.1 WoS database → Connect to the UL ENT
+:::
+
+
+
+
+# Step 2b: Patent screening and analysis
+
+
+::: columns
+::: {.column width="50%"}
+![Goal Step 2a : Define the research questions](figures/Step-2b.jpg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="100%" height="300" >}}
+
+:::
+
+:::
+
+
+# Step 2c: Comparing the scientific and the Patent domains
+
+## Outline
+
+1. [Access to WoS database](#access)
+1. [Search in the Scientific database](#access)
+1. [Search in the Patent database](#access)
+
+
+## 1. Access to WoS database {#access}
+
+### WoS database → Connect to the UL ENT
 
 Use your UL account to access to the databases
 
@@ -191,26 +217,33 @@ Use your UL account to access to the databases
 
 ---
 
-### 1.1 WoS database → Access to the 'Ressources en Ligne'
+### WoS database → Access to the 'Ressources en Ligne'
 
 ![Resource online of the UL](figures/01-UL-databases/01.png)
 
 ---
 
-### 1.1 WoS database → UL Web of Science
+#### 1.1 WoS database → UL Web of Science
 
 ![Look for the 'Web of Science' database](figures/01-UL-databases/02.png)
 
 ---
 
-### 1.1 WoS database → Voilà 
+#### 1.1 WoS database → Voilà 
 
 
-
-## 2. Download scientific database
 
 ---
 
+### Outline
+
+1. [Access to WoS database](#access)
+1. [Web of Science Interface](#wos)
+1. [Search in the Patent database](#access)
+
+---
+
+## 2. Web of Science Interface {#wos}
 ### Web of Science: Simple research mode
 
 
@@ -233,7 +266,6 @@ knitr::include_graphics("figures/06.jpg")
 
 Remember the:  **Topic + Subject + Problem**
 
-<br>
 
 ```{r}
 knitr::include_graphics("figures/07.jpg")
@@ -241,11 +273,9 @@ knitr::include_graphics("figures/07.jpg")
 
 ---
 
-## Web of Science: Advance search
+### Web of Science: Advance search
 
 But, take a look of the other type of searches 
-
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/08.jpg")
@@ -254,7 +284,7 @@ knitr::include_graphics("figures/08.jpg")
 
 ---
 
-## Web of Science: put the Search Equation
+### Web of Science: put the Search Equation
 
 <br>
 
@@ -264,9 +294,10 @@ knitr::include_graphics("figures/09.jpg")
 
 ---
 
-## Web of Science: Results
 
-<br>
+
+## 3. Results
+
 
 ```{r, }
 knitr::include_graphics("figures/10.jpg")
@@ -275,42 +306,8 @@ knitr::include_graphics("figures/10.jpg")
 
 ---
 
-## Web of Science: Export results
+### Analyze the Results
 
-<br>
-
-```{r, }
-knitr::include_graphics("figures/11.jpg")
-```
-
-
----
-
-## Web of Science: Select Tab Deliminated File
-
-<br>
-
-```{r, }
-knitr::include_graphics("figures/12.jpg")
-```
-
-
----
-
-## Web of Science: Export Full record
-
-<br>
-
-```{r, }
-knitr::include_graphics("figures/13.jpg")
-```
-
-
----
-
-## Web of Science: Analyze the Results
-
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/14.jpg")
@@ -319,9 +316,8 @@ knitr::include_graphics("figures/14.jpg")
 
 ---
 
-## Web of Science: Analyze the Results
+### Analyze the Results
 
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/14.jpg")
@@ -329,7 +325,7 @@ knitr::include_graphics("figures/14.jpg")
 
 ---
 
-## Web of Science: Analyze the Categories
+### Analyze the Categories
 
 <br>
 
@@ -340,9 +336,8 @@ knitr::include_graphics("figures/15.jpg")
 
 ---
 
-## Web of Science: Analyze the Authors
+### Analyze the Authors
 
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/16.jpg")
@@ -350,9 +345,8 @@ knitr::include_graphics("figures/16.jpg")
 
 ---
 
-## Web of Science: Analyze the Funding Agencies
+### Analyze the Funding Agencies
 
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/17.jpg")
@@ -360,9 +354,8 @@ knitr::include_graphics("figures/17.jpg")
 
 ---
 
-## Web of Science: Analyze the Countries
+### Analyze the Countries
 
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/18.jpg")
@@ -371,11 +364,41 @@ knitr::include_graphics("figures/18.jpg")
 
 ---
 
+## 4. Web of Science: Export results
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/11.jpg")
+```
 
 
+---
+
+### Select Tab Deliminated File
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/12.jpg")
+```
 
 
-## 3. Scientific Network visualization
+---
+
+### Export Full record
+
+<br>
+
+```{r, }
+knitr::include_graphics("figures/13.jpg")
+```
+
+
+---
+
+
+## 4. Scientific Network visualization
 
 ```{r}
 knitr::include_graphics("figures/vos/01.jpg")
@@ -459,4 +482,221 @@ Attention to the Redundancies
 ```{r}
 knitr::include_graphics("figures/vos/08.jpg")
 ```
+
+
+
+## Network Visualitation
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/09.jpg")
+```
+
+---
+
+
+## Overlay Visualitation
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/10.jpg")
+```
+
+---
+
+## Overlay Visualitation: Selecting the node
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/09-1.jpg")
+```
+
+
+
+---
+
+
+## Density Visualization
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/vos/11.jpg")
+```
+
+
+---
+
+# Outline
+
+
+1. Connect to the databases of the UL
+2. Web of Science / Clarivate
+3. .bg-yellow[Vosviewer:]
+
+# For Patents Visualization
+
+---
+
+## Clarivate for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/01.jpg")
+```
+
+
+---
+
+## Clarivate for Patents: use the search equation
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/02.jpg")
+```
+
+
+---
+
+## Clarivate for Patents: Export the Data
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/03.jpg")
+```
+
+---
+
+## Clarivate for Patents: Full record
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/04.jpg")
+```
+
+---
+
+## Don't forget use the analyze tool for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/04-1.jpg")
+```
+
+---
+
+## VOSviewer for Patents: Create from `text data`.
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/05.jpg")
+```
+
+
+---
+
+## VOSviewer for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/06.jpg")
+```
+
+---
+
+## VOSviewer for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/07.jpg")
+```
+
+
+---
+
+## VOSviewer for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/08.jpg")
+```
+
+
+---
+
+## VOSviewer for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/09.jpg")
+```
+
+
+---
+
+## VOSviewer for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/10.jpg")
+```
+
+
+---
+
+## VOSviewer for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/11.jpg")
+```
+
+
+---
+
+## VOSviewer for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/12.jpg")
+```
+
+
+---
+
+## VOSviewer for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/13.jpg")
+```
+
+
+---
+
+## VOSviewer for Patents
+
+<br>
+
+```{r}
+knitr::include_graphics("figures/patents/14.jpg")
+```
+
 
