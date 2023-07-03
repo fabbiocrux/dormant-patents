@@ -21,6 +21,7 @@ format:
     toc-title: Agenda for today
     toc-depth: 1
     center: false
+    number-sections: true
     fig-align: center
     #theme: [default, theme/custom.css]
     resource-path: 
@@ -194,11 +195,26 @@ An overview on the space of patents enabling :
 {{< video https://www.youtube.com/embed/Xk24DMOInnQ width="100%" height="300" >}}
 
 :::
-
 :::
 
 
 # Step 2c: Comparing the scientific and the Patent domains
+
+## Canva
+
+::: columns
+::: {.column width="50%"}
+![Goal Step 2c : Comparing the scientific and the Patent domains](figures/Step-2c.jpg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+{{< video https://www.youtube.com/embed/Xk24DMOInnQ width="100%" height="300" >}}
+
+:::
+:::
+
+
 
 ## Outline
 
@@ -207,8 +223,7 @@ An overview on the space of patents enabling :
 1. [Search in the Patent database](#access)
 
 
-## 1. Access to WoS database {#access}
-
+##  Access to WoS database {#access}
 ### WoS database → Connect to the UL ENT
 
 Use your UL account to access to the databases
@@ -223,17 +238,12 @@ Use your UL account to access to the databases
 
 ---
 
-#### 1.1 WoS database → UL Web of Science
+### WoS database → UL Web of Science
 
 ![Look for the 'Web of Science' database](figures/01-UL-databases/02.png)
 
 ---
 
-#### 1.1 WoS database → Voilà 
-
-
-
----
 
 ### Outline
 
@@ -243,8 +253,8 @@ Use your UL account to access to the databases
 
 ---
 
-## 2. Web of Science Interface {#wos}
-### Web of Science: Simple research mode
+## Web of Science Interface {#wos}
+### Simple research mode
 
 
 ```{r, }
@@ -296,7 +306,7 @@ knitr::include_graphics("figures/09.jpg")
 
 
 
-## 3. Results
+## Results on WoS plateform
 
 
 ```{r, }
@@ -306,15 +316,6 @@ knitr::include_graphics("figures/10.jpg")
 
 ---
 
-### Analyze the Results
-
-
-```{r, }
-knitr::include_graphics("figures/14.jpg")
-```
-
-
----
 
 ### Analyze the Results
 
@@ -327,7 +328,6 @@ knitr::include_graphics("figures/14.jpg")
 
 ### Analyze the Categories
 
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/15.jpg")
@@ -364,9 +364,8 @@ knitr::include_graphics("figures/18.jpg")
 
 ---
 
-## 4. Web of Science: Export results
+## Web of Science: Export results
 
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/11.jpg")
@@ -377,7 +376,6 @@ knitr::include_graphics("figures/11.jpg")
 
 ### Select Tab Deliminated File
 
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/12.jpg")
@@ -388,7 +386,6 @@ knitr::include_graphics("figures/12.jpg")
 
 ### Export Full record
 
-<br>
 
 ```{r, }
 knitr::include_graphics("figures/13.jpg")
@@ -398,7 +395,7 @@ knitr::include_graphics("figures/13.jpg")
 ---
 
 
-## 4. Scientific Network visualization
+# Scientific Network visualization
 
 ```{r}
 knitr::include_graphics("figures/vos/01.jpg")
@@ -528,22 +525,11 @@ knitr::include_graphics("figures/vos/11.jpg")
 ```
 
 
----
 
-# Outline
+# Patents Network visualization
 
-
-1. Connect to the databases of the UL
-2. Web of Science / Clarivate
-3. .bg-yellow[Vosviewer:]
-
-# For Patents Visualization
-
----
 
 ## Clarivate for Patents
-
-<br>
 
 ```{r}
 knitr::include_graphics("figures/patents/01.jpg")
@@ -554,7 +540,6 @@ knitr::include_graphics("figures/patents/01.jpg")
 
 ## Clarivate for Patents: use the search equation
 
-<br>
 
 ```{r}
 knitr::include_graphics("figures/patents/02.jpg")
