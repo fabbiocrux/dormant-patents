@@ -158,13 +158,18 @@ An overview on the space of patents enabling :
 :::
 
 
-## Vosviewer
+## Bibliometric mapping: Vosviewer
+
+
+```{r, out.width='100%'}
+knitr::include_graphics("figures/vos/09.jpg")
+```
+
+
+van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. https://doi.org/10.1007/s11192-009-0146-3
+
 
 [Download at https://www.vosviewer.com/](https://www.vosviewer.com/)
-
-### Quick introduction {.center}
-
-{{< video https://www.youtube.com/embed/9dTWkNRxUtw width="70%" height="75%" >}}
 
 
 # Step 2a: Research conceptualization
@@ -204,7 +209,6 @@ An overview on the space of patents enabling :
 
 # Step 2c: Comparing the scientific and the Patent domains
 
-## Canva
 
 ::: columns
 ::: {.column width="50%"}
@@ -220,12 +224,14 @@ An overview on the space of patents enabling :
 
 
 
-## Outline
+### Tutorials
 
 1. [Access to WoS database](#access)
-1. [Search in the Scientific database](#access)
-1. [Search in the Patent database](#access)
-
+1. [Web of Science Interface](#wos)
+1. [Results on WoS plateform](#wos-results)
+1. [Web of Science: Export results](#wos-export)
+1. [Scientific Network visualization](#sci-vos)
+1. [Patent Network visualization](#pat-vos)
 
 ##  Access to WoS database {#access}
 ### WoS database → Connect to the UL ENT
@@ -248,14 +254,6 @@ Use your UL account to access to the databases
 
 ---
 
-
-### Outline
-
-1. [Access to WoS database](#access)
-1. [Web of Science Interface](#wos)
-1. [Search in the Patent database](#access)
-
----
 
 ## Web of Science Interface {#wos}
 ### Simple research mode
@@ -310,7 +308,7 @@ knitr::include_graphics("figures/09.jpg")
 
 
 
-## Results on WoS plateform
+## Results on WoS plateform {#wos-results}
 
 
 ```{r, }
@@ -368,7 +366,7 @@ knitr::include_graphics("figures/18.jpg")
 
 ---
 
-## Web of Science: Export results
+## Web of Science: Export results {#wos-export}
 
 
 ```{r, }
@@ -399,7 +397,7 @@ knitr::include_graphics("figures/13.jpg")
 ---
 
 
-# Scientific Network visualization
+# Scientific Network visualization {#sci-vos}
 
 ```{r}
 knitr::include_graphics("figures/vos/01.jpg")
@@ -530,7 +528,7 @@ knitr::include_graphics("figures/vos/11.jpg")
 
 
 
-# Patents Network visualization
+# Patents Network visualization{(#pat-vos)}
 
 
 ## Clarivate for Patents
