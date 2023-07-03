@@ -19,6 +19,7 @@ format:
     echo: true
     toc: true
     toc-title: Agenda for today
+    toc-depth: 1
     center: false
     fig-align: center
     resource-path: 
@@ -80,12 +81,85 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 -   This results in a **mismatch between information** need and availability and **complicates decision-making**.
 -   The process requires an **interdisciplinary approach**. The right combination of skills and expertise may not always be available
 
-## Technology Readiness → 
+## Technology Readiness → Evolution
 
-![](figures/TRL-04.png){width="70%" fig-align="center"}
+::: {.r-stack}
+![](figures/NPD-0.png){width="70%" fig-align="center"}
+
+![](figures/NPD-1.png){.fragment .absolute width="500"  top=250 left=0}
+
+![](figures/NPD-2.png){.fragment width="500" fig-align="center"}
+
+![](figures/NPD-3.png){.fragment .absolute top=50 right=50 width="400" }
+
+![](figures/NPD-4.png){.fragment .absolute top=250 left=0 width="500" }
+
+![](figures/NPD-5.png){.fragment  width="800" fig-align="center"}
+:::
 
 
-# Presentation of the bibliometric tools
+## Web of science → Scientific & Patent databases
+
+![](figures/logos/WoS.png){width="400" fig-align="left"}
+
+::: columns
+::: {.column width="50%"}
+![**Core Collections**](figures/01-UL-databases/03.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![**Derwent Innovations Index**](figures/01-UL-databases/04.png){fig-align="center"}
+:::
+:::
+
+
+## Main goal of Step 2
+
+1. Characterize the Patent 
+
+2. International Patent Classification IPC Code
+
+3. Patent Classification IPC visualization 
+
+
+#### Expected Result at the end of the day
+
+An overview on the space of patents enabling :  
+
+- Validating the relevance of your concepts 
+- Listing more cited patents 
+- Identifying key players (assignees ) and links
+
+
+## Pedagogical objective for you!
+
+![**Expand the State of the Art via the patent analysis**](figures/TRL-06.png){fig-align="center"}
+
+
+
+## Are you ready?
+
+
+
+# Presentation of tools
+
+## The canvas of Step 2
+
+::: columns
+::: {.column width="30%"}
+![Goal Step 2a : Define the research questions](figures/Step-2a.jpg){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![Goal: Define research equation to use in WoS](figures/Step-2b.jpg){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![Goal Step 2c: Visualize & Analize Scientific and Patent databases](figures/Step-2c.jpg){fig-align="center"}
+:::
+
+:::
+
 
 ## Vosviewer
 
@@ -111,15 +185,6 @@ We'll use two options in **Web Of Science**:
 
 <br>
 
-::: columns
-::: {.column width="50%"}
-![**Core Collections**](figures/01-UL-databases/03.png){fig-align="center"}
-:::
-
-::: {.column width="50%"}
-![**Derwent Innovations Index**](figures/01-UL-databases/04.png){fig-align="center"}
-:::
-:::
 
 ## Advanced Search Query Builder
 
