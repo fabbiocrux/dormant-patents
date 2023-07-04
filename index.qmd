@@ -444,6 +444,18 @@ knitr::include_graphics("figures/12.jpg")
 
 ---
 
+
+### Export Full record
+
+
+```{r, }
+knitr::include_graphics("figures/13.jpg")
+```
+
+
+
+---
+
 ### Tutorials
 
 1. [Access to WoS database](#access)
@@ -457,29 +469,27 @@ knitr::include_graphics("figures/12.jpg")
 
 ---
 
-
-### Export Full record
-
-
-```{r, }
-knitr::include_graphics("figures/13.jpg")
-```
-
-
----
-
-
 # Scientific Network visualization {#sci-vos}
 
 ```{r}
 knitr::include_graphics("figures/vos/01.jpg")
 ```
 
+Download Vosviewer at [https://www.vosviewer.com/](https://www.vosviewer.com/)
+
+---
+
+## Small introduction to VosViwer
+
+
+
+{{< video https://www.youtube.com/embed/9dTWkNRxUtw width="1200" height="500"  >}}
+
+
 ---
 
 ## Add data: from `Bibliographic database file`
 
-<br>
 
 ```{r}
 knitr::include_graphics("figures/vos/02.jpg")
@@ -489,7 +499,6 @@ knitr::include_graphics("figures/vos/02.jpg")
 
 ## Add data: from `Bibliographic database file`
 
-<br>
 
 ```{r}
 knitr::include_graphics("figures/vos/03.jpg")
@@ -500,13 +509,10 @@ knitr::include_graphics("figures/vos/03.jpg")
 
 ## Add data: Select the `.txt` files from WoS
 
-<br>
 
 ```{r}
 knitr::include_graphics("figures/vos/04.jpg")
 ```
-
-
 
 ---
 
