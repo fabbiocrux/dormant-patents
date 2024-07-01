@@ -1,0 +1,464 @@
+---
+title: "Flash Course:<br>**Prototyping your Ideas**"
+subtitle: "CLIP - USACH"  
+email: "cruzsanc1@univ-lorraine.fr"
+author: 
+  - "Fabio A. Cruz Sanchez"
+  - "Alex Gabriel A. CRUZ"
+date: 2024/07/02
+format: 
+  revealjs:
+    slide-number: c/t
+    slide-level: 3
+    controls: true
+    transition: none
+    width: 1600
+    height: 900
+#    css: ["theme/custom.scss"]
+#    theme: simple
+    echo: true
+    toc: true
+    toc-title: Agenda for today
+    toc-depth: 1
+    center: false
+    number-sections: false
+    fig-align: center
+    theme: [default, theme/custom.scss]
+    logo: "figures/logos/Orion.png"
+    header-logo: "figures/logos/ENSGSI.png"
+    header: '[CLIP USACH 2024](#/TOC)'
+    #subtitle-as-header: true
+    sc-sb-title: false
+    footer: ' '
+    chalkboard: true
+filters:
+  - reveal-header
+---
+
+```{r}
+#| include: false
+
+
+library(countdown)
+```
+
+
+
+# Lorraine Fab Living Lab
+
+![](figures/LF2L-Vertical.jpg){width="200" fig-align="center"} 
+
+
+## Before 
+
+![](figures/Fablab-01.png){width="200" fig-align="center"} 
+
+## Before 
+
+![](figures/history-00.png ){width="200" fig-align="center"} 
+
+
+## Materialize *Citizen Innovation*?
+
+
+![](figures/Materialize-Innovation-00.png)
+
+
+## Role of LF2L
+
+**Research platform for prospective assessment of innovative usages**
+
+<br>
+
+![](figures/Methodology-02.png){width="350" fig-align="center"} 
+
+
+
+
+# PopChallenge {.center background-color="aquamarine"}
+
+**Formez des équipes de quatre/cinq personnes**
+
+- De préférence, avec vos voisins entre les rangs.
+
+### Challenge {.center}
+
+::: {.columns}
+::: {.column width="60%"}
+
+<br><br><br>
+
+Vous avez 18 minutes pour construire une **tour autoportante** qui supporte des poids calibrés avec les matériaux listées ici →
+
+Nous noterons les tours en fonction de:
+
+
+1. Il résiste à au moins un poids: Oui / Non 
+2. $Score=heigth_{weigth} * weigth$
+
+:::
+::: {.column width="30%"}
+![](figures/Challege.png)
+:::
+:::
+
+### 18 Minutes 
+
+![[Timer](https://www.youtube.com/watch?v=tJan3T4h5ok)](figures/Timer.png){width="60%" fig-align="center"}
+
+
+
+
+## Reflecting on the design process 
+
+::: {.columns}
+::: {.column width="60%"}
+
+- What strategies did you use to maker your towers?
+- How many towers did you make?
+- How did you learn?
+
+:::
+::: {.column width="30%"}
+
+![](figures/Challege.png)
+
+:::
+:::
+
+### Reflecting on the design process 
+
+::: {.columns}
+::: {.column width="60%"}
+
+- How many teams sketched out ideas first before starting to build?
+- How many teams tried multiple ideas before settling on a final design?
+- How many teams tried to use the weights during the prototyping process?
+- How many teams used parts in unintentional ways (took apart
+clothespins)?
+
+:::
+
+::: {.column width="30%"}
+
+![](figures/Challege.png)
+
+:::
+:::
+
+
+
+## Prototyping  ... Why it Matters ? {.center}
+
+ 
+
+
+
+
+
+## Why Prototyping Matters ? {.center}
+
+::: {.columns}
+::: {.column width="70%"}
+**"Humans are really interesting. If you show them your idea in a prototype form, very few people will tell you what’s right about it. *But everybody will tell you what’s wrong with it*."** 
+:::
+::: {.column width="30%"}
+![](figures/David-kelley.jpeg)
+
+David Kelly, IDEO
+:::
+:::
+
+
+
+
+
+
+## What is Prototyping ?
+
+“The process of creating usable artifacts at a variety of fidelities of completion, in order to answer design questions and communicate design ideas; with users in the context of use.”
+
+## What is Prototyping ?
+
+“The **process of creating** usable artifacts at a variety of fidelities of completion, in order to answer design questions and communicate design ideas; with users in the context of use.”
+
+
+![](figures/process-explained-1.jpg){fig-align="center"}
+
+
+
+## What is Prototyping ?
+
+“The process of creating **usable artifacts** at a variety of fidelities of completion, in order to answer design questions and communicate design ideas; with users in the context of use.”
+
+
+![](figures/prototyping-01.png){fig-align="center"}
+
+
+## What is Prototyping ?
+
+“The process of creating usable artifacts at a **variety of fidelities of completion**, in order to answer design questions and communicate design ideas; with users in the context of use.”
+
+
+![](figures/prototyping-02.png){fig-align="center"}
+
+
+
+## What is Prototyping ?
+
+“The process of creating usable artifacts at a variety of fidelities of completion, **in order to answer design questions** and communicate design ideas; with users in the context of use.”
+
+<br>
+
+::: {.columns}
+::: {.column width="20%"}
+
+- Representation
+- Precision
+- Interactivity
+- Evolution
+
+:::
+::: {.column width="80%"}
+![Dyson](figures/prototyping-03.png){fig-align="center"}
+
+
+:::
+:::
+
+
+## What is Prototyping ?
+
+“The process of creating usable artifacts at a variety of fidelities of completion, in order to answer design questions and **communicate design ideas**; with users in the context of use.”
+
+<br>
+
+![](figures/prototyping-04.png){fig-align="center"}
+
+
+## What is Prototyping ?
+
+“The process of creating usable artifacts at a variety of fidelities of completion, in order to answer design questions and communicate design ideas; **with users in the context of use.**”
+
+<br>
+
+![](figures/prototyping-05.jpg){fig-align="center"}
+
+
+
+## What is a Prototype? {.center}
+
+We define a prototype as a concrete representation of part or all of an interactive system. 
+
+**A prototype is a tangible artifact, not an abstract description that requires interpretation**. 
+
+Designers, as well as managers, developers, customers and end users, can use these artifacts to envision and reflect upon the final system.”
+
+
+## Questions? {.center}
+
+# TP: Design your prototype
+
+
+
+
+## Step 1: Draw you totem
+
+
+![](figures/Design.png){width="80%" fig-align="center"}
+
+
+```{r echo=FALSE}
+countdown(minutes = 20, font_size = "2.5em", color_background="#AED6F1")
+```
+
+
+## Step 2: Download and install `Inkscape`
+
+
+![[https://inkscape.org/](https://inkscape.org/)](figures/Inkscape-00.png){width="80%" fig-align="center"}
+
+
+```{r echo=FALSE}
+countdown(minutes = 5, font_size = "2.5em", color_background="#AED6F1")
+```
+
+
+
+## Step 3: Import and adjust the document 
+
+The size needs to be $100x100~mmm$ max
+
+![](figures/Inkscape-01.png){width="80%" fig-align="center"}
+
+
+
+## Step 4: Crop your image
+
+![](figures/Inkscape-02.png){width="80%" fig-align="center"}
+
+
+## Step 4: Vectorize your image 
+
+![](figures/Inkscape-03.png){width="80%" fig-align="center"}
+
+:::aside
+Additional DIY 🎥 Youtube tutorials if you need:
+
+- [https://youtube.com/watch?v=aVPV6AtjGBg](https://youtube.com/watch?v=aVPV6AtjGBg)
+- [https://www.youtube.com/watch?v=i6s_iOVIxUA](https://www.youtube.com/watch?v=i6s_iOVIxUA)
+
+:::
+
+## Step 5: Prepare your image for laser-cut
+
+- Red color : Cutting
+- Blue color: graving
+
+![](figures/Inkscape-04.png){width="80%" fig-align="center"}
+
+## Step 6: Connect to Fabmanager
+
+[https://fabmanager.lf2l.fr/](https://fabmanager.lf2l.fr/)
+
+![](figures/fabmanager-00.png){width="80%" fig-align="center"}
+
+
+## Exercise 2: Vectorize your photo
+
+![](figures/Inkscape-05.png){width="70%" fig-align="center"}
+
+
+:::{.aside}
+Tutorial 🎥 Youtube: [https://www.youtube.com/watch?v=wiqUrzzHszI&t=690s](https://www.youtube.com/watch?v=wiqUrzzHszI&t=690s)
+:::
+
+
+
+
+
+
+
+
+
+# Engineering and  'Âge du Faire / DIY'
+
+## What is the meaning of "Engineer" for you ?
+
+::: {.fragment}
+
+The word **Engineer** (Latin *Ingeniator*) is derived from the Latin words **Ingeniare** ("to contrive, devise") and **Ingenium** ("cleverness").
+
+:::
+
+
+
+## Fab Lab and how to do (almost) anything
+
+
+:::aside
+Source: [https://cba.mit.edu/classes/](https://cba.mit.edu/classes/)
+:::
+
+## Unleash your creativity in a Fab Lab. Feb 2006
+
+<div style="max-width:1400px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/lang/en/neil_gershenfeld_unleash_your_creativity_in_a_fab_lab" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+Source: https://www.ted.com/talks/neil_gershenfeld_unleash_your_creativity_in_a_fab_lab
+
+
+
+## What is a Fablab?
+
+![](figures/Definition-01.png){width="90%" fig-align="center"} 
+
+Source: [https://fab.cba.mit.edu/about/charter/](https://fab.cba.mit.edu/about/charter/)
+
+
+## Personal Fabrication {background-image="figures/Example-1.png"  background-size="40%" background-position="100% 50%"} 
+
+*Products for a market of **one person***
+
+<br> <br>
+Source: <br> [Avec Airbus et un fablab, il fabrique sa prothèse high-tech](https://www.ladepeche.fr/article/2018/02/24/2748525-airbus-fablab-fabrique-prothese-high-tech.html)
+
+[https://www.facebook.com/PrintMyLeg/](https://www.facebook.com/PrintMyLeg/)
+
+
+## Personal Fabrication {background-image="figures/Example-2.png"  background-size="40%" background-position="100% 50%"} 
+
+*Products for a market of **one person***
+
+<br><br>
+
+### Fablab and Handicap: <br> [https://myhumankit.org/](https://myhumankit.org/)
+
+
+## Personal Fabrication {background-image="figures/Example-3.png"  background-size="50%" background-position="100% 50%"} 
+
+*Products for a market of **one person***
+
+<br><br>
+
+### Fablab and Music: <br> [https://lowtechlab.org/fr](https://lowtechlab.org/fr)
+
+
+
+## Personal Fabrication {background-image="figures/Example-7.png"  background-size="60%" background-position="100% 50%"} 
+
+*Products for a market of **one person***
+
+<br><br>
+
+### Fablab and Music
+
+
+## Personal Fabrication {background-image="figures/Example-8.png"  background-size="60%" background-position="100% 50%"} 
+
+*Products for a market of **one person***
+
+<br><br>
+
+
+### Fablab and Music
+
+Source: [Matt Keeter - Fab Boombox](https://fab.cba.mit.edu/classes/863.11/people/matthew.keeter/fab_boombox/index.html)
+
+
+
+
+
+## Personal Fabrication {background-image="figures/Example-4.png"  background-size="50%" background-position="100% 50%"} 
+
+*Products for a market of **one person***
+
+<br><br>
+
+### Fablab et Fashion: <br> [https://class.textile-academy.org/](https://class.textile-academy.org/classes/2023-24/)
+
+![](figures/Joins.jpg){width="100" fig-align="left"} 
+
+## Personal Fabrication {background-image="figures/Example-5.png"  background-size="50%" background-position="100% 50%"} 
+
+*Products for a market of **one person***
+
+<br><br>
+
+### Fablab and Agriculture: <br> [https://www.latelierpaysan.org/](https://www.latelierpaysan.org/)
+
+
+
+## Personal Fabrication {background-image="figures/Example-6.png"  background-size="50%" background-position="100% 50%"} 
+
+*Products for a market of **one person***
+
+<br><br>
+
+### Fablab and Architecure: <br> [Fablab House Barcelone](https://archello.com/project/the-fab-lab-house)
+
+
+
+
+## New approch for engineering... {.center} 
+
+

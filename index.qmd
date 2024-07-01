@@ -4,8 +4,8 @@ subtitle: "Research & Technology Bibliometric Landscapes Networks"
 email: "cruzsanc1@univ-lorraine.fr"
 author: 
   - "Prof. Mauricio CAMARGO"
-  - "Fabio A. CRUZ SANCHEZ"
-date: '`r Sys.Date()`'
+  - "Ferney OSORIO"
+date: '2024-07-02'
 format: 
   revealjs:
     slide-number: c/t
@@ -25,7 +25,7 @@ format:
     theme: [default, theme/custom.scss]
     logo: "figures/logos/Orion.png"
     header-logo: "figures/logos/ENSGSI.png"
-    header: '[Think Innovation Week 2023](#/TOC)'
+    header: '[Think Innovation Week 2024](#/TOC)'
     #subtitle-as-header: true
     sc-sb-title: false
     footer: ' '
