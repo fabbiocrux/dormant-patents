@@ -70,8 +70,40 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 
 
+# Where are we? {.unnumbered}
+
+::: {layout="[1,1,1]"}
+
+*A Healthy Mind for a Healthy Body*
+
+*The Dermatological Avatar*
+
+*Collecting clouds*
+
+:::
+
+::: {.r-fit-text}
+PESTEL 
+:::
+
+
+## Pedagogical goal of this afternoon {.unnumbered}
+
+1. 🧠 **Knowledge** : 
+   - Use the patent databases (and scientific databases) to gain a **semantic world of your problematic**. 
+
+1. 🔨 **Know-how** : 
+   - Search on pertinent **patent and scientific databases** such as **WoS** 
+
+1. ✍**Competence**  : 
+   - Be able to make a **landscape visualisation** of set of documents from a research question.
+
+
+
+Before, We need to understand how **Technology Emergency** is made ...
 
 # Flash Course: Technology Landscape
+
 
 ## Technology Readiness → Maturity {.nostretch}
 
