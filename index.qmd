@@ -4,8 +4,9 @@ subtitle: "Research & Technology Bibliometric Landscapes Networks"
 email: "cruzsanc1@univ-lorraine.fr"
 author: 
   - "Prof. Mauricio CAMARGO"
-  - "Ferney OSORIO"
-date: '2024-07-02'
+  - "McF Fabio CRUZ"
+date: today
+date-format: long
 format: 
   revealjs:
     slide-number: c/t
@@ -36,9 +37,17 @@ filters:
 
 ```{r setup, include=FALSE}
 # Load packages -----
-library(tidyverse)
-library(here)
+
+#install.packages('tidyverse')
+#install.packages('countdown')
+#install.packages('bibliometrix')
+
+
+
+#library(tidyverse)
 library(countdown)
+#library(bibliometrix)
+#biblioshiny()
 
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
@@ -57,6 +66,10 @@ knitr::opts_chunk$set(
 URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 ```
+
+
+
+
 
 # Flash Course: Technology Landscape
 
