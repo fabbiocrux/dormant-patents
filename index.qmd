@@ -1,10 +1,10 @@
 ---
 title: "Flash Course:<br>**Technological watch and prospective**"
-subtitle: "Research & Technology Bibliometric Landscapes Networks"  
+subtitle: "Bibliometric Landscapes"  
 email: "cruzsanc1@univ-lorraine.fr"
 author: 
   - "Prof. Mauricio CAMARGO"
-  - "McF Fabio CRUZ"
+  - "Assist Prof. Fabio CRUZ"
 date: today
 date-format: long
 format: 
@@ -26,7 +26,8 @@ format:
     theme: [default, theme/custom.scss]
     logo: "figures/logos/Orion.png"
     header-logo: "figures/logos/ENSGSI.png"
-    header: '[Think Innovation Week 2024](#/TOC)'
+    header: '[Think Innovation Week 2025](#/TOC)'
+    slide-level: 3
     #subtitle-as-header: true
     sc-sb-title: false
     footer: ' '
@@ -72,9 +73,7 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 # Where are we? {.unnumbered}
 
-::: {layout="[1,1,1]"}
-
-*A Healthy Mind for a Healthy Body*
+::: {layout="[1,1]"}
 
 *The Dermatological Avatar*
 
@@ -90,7 +89,7 @@ PESTEL
 ## Pedagogical goal of this afternoon {.unnumbered}
 
 1. 🧠 **Knowledge** : 
-   - Use the patent databases (and scientific databases) to gain a **semantic world of your problematic**. 
+   - Use the patent databases to gain a **semantic world of your problematic**. 
 
 1. 🔨 **Know-how** : 
    - Search on pertinent **patent and scientific databases** such as **WoS** 
@@ -160,6 +159,40 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 :::
 
 
+
+
+
+## Scientific databases: Web Of Science (WoS)
+
+:::{layout="[30,70]"}
+:::{}
+
+![](figures/WOS-00.png){width="95%" fig-align="center"}
+
+
+::: {.callout-tip}
+## Tutorials 
+
+1. [🔑 To Acces to WoS](#access)
+1. [🖥️ To the Interface](#wos)
+1. [📊 To the Results ](#wos-results)
+
+:::
+:::
+
+:::{}
+- WoS indexes a wide range of academic publications → **peer-reviewed journals**, conference proceedings, patents...
+- Citation Tracking → 📈
+- Research Analytics → 🏛️🌍
+- Curated Content → 📋 Minimal Criteria of indexation
+- Interdisciplinary Reach → ⚙️Engineering to 👥 Social Sciences
+- Developed by Clarivate → 🔒💰
+
+:::
+:::
+
+
+
 ## Web of science → Scientific & Patent databases
 
 ![](figures/logos/WoS.png){width="400" fig-align="left"}
@@ -175,18 +208,22 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 :::
 
 
-## Main goal of Step 2
 
+
+## Pedagogical objective for you!
+
+:::{layout="[45,-5,45]" layout-valign="top"}
+
+![**Expand the State of the Art via the patent analysis**](figures/TRL-06.png){fig-align="center"}
+
+:::{}
 An overview on the space of patents enabling :  
 
 - Validating the relevance of your concepts 
 - Listing more cited patents 
 - Identifying key players (assignees) and links
-
-
-## Pedagogical objective for you!
-
-![**Expand the State of the Art via the patent analysis**](figures/TRL-06.png){fig-align="center"}
+:::
+:::
 
 
 ---
@@ -197,7 +234,6 @@ So..
 
 ![](https://media.giphy.com/media/xT39Db8zIOODTppk08/giphy-downsized-large.gif){width=50% fig-align=center}
 
----
 
 
 
@@ -211,11 +247,11 @@ So..
 :::
 
 ::: {.column width="30%"}
-![Goal: Define research equation to use in WoS](figures/Step-2b.jpg){fig-align="center"}
+![Goal: Define research equation](figures/Step-2b.jpg){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
-![Goal Step 2c: Visualize & Analize Scientific and Patent databases](figures/Step-2c.jpg){fig-align="center"}
+![Goal Step 2c: Visualize & Analize Patent databases](figures/Step-2c.jpg){fig-align="center"}
 :::
 
 :::
@@ -224,36 +260,44 @@ So..
 ## Bibliometric mapping: Vosviewer
 
 
-```{r, out.width='60%'}
-knitr::include_graphics("figures/vos/09.jpg")
-```
+:::{layout="[45,-5,45]" layout-valign="top"}
 
-[Download at https://www.vosviewer.com/](https://www.vosviewer.com/)
+![Software: VOSviewer](figures/vos/09.jpg){fig-align="center"}
+
+[⬇️ Download at <br> https://www.vosviewer.com/](https://www.vosviewer.com/)
+
+:::
+
+
+
+
+
 
 :::{.footnote}
-van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. https://doi.org/10.1007/s11192-009-0146-3
+Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. ](https://doi.org/10.1007/s11192-009-0146-3)
 :::
 
 
+## Step 2a: Research conceptualization
 
+:::{layout="[45,-2,50]" layout-valign="top"}
 
-# Step 2a: Research conceptualization
+![](figures/Step-2a.jpg){fig-align="center" width="80%"}
 
+:::{}
 
-::: columns
-::: {.column width="50%"}
-![Goal Step 2a : Define the research questions](figures/Step-2a.jpg){fig-align="center"}
-:::
+**🎯 Goal:**
 
-::: {.column width="50%"}
+- Based on the canvas, Identify a **research question** from a general topic that you want to study. 
+    - Define two or three specific research topics that complete the general research question. 
+
 
 ```{r, include=TRUE}
-countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
+countdown(minutes = 30, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
           margin = "5px",)
 ```
 
 :::
-
 :::
 
 
@@ -261,16 +305,23 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 # Step 2b: Patent screening and analysis
 
+:::{layout="[45,-2,50]" layout-valign="top"}
 
-::: columns
-::: {.column width="50%"}
-![Goal Step 2a : Define the research questions](figures/Step-2b.jpg){fig-align="center"}
-:::
+![](figures/Step-2b.jpg){fig-align="center"}
 
-::: {.column width="50%"}
+:::{}
+**🎯 Goal:**
+
+- Identify the *Concepts* and semantic world of the research questions based on the canva. 
+- Structure a *replicable search equation* based on the 'Venn Diagram' approach. 
+- Use scientific databases [🔗 Web of Science](https://www-webofscience-com.bases-doc.univ-lorraine.fr/wos/woscc/basic-search) 
+
+<br>
+<br>
+<br>
 
 ```{r, include=TRUE}
-countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
+countdown(minutes = 30, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
           margin = "5px",)
 ```
 
@@ -288,6 +339,15 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ::: {.column width="50%"}
 
+
+**🎯 Goal:** Create a detailed description and facilitate a discussion on the visualizations generated by **VOSviewer**. 
+
+- Focus on interpreting how the clusters identified relate to the research question.
+- Examine key patterns and connections. 
+- Uncover insights into the relationships among concepts and themes. 
+- Make a description enhancing the understanding of the research landscape.
+
+
 ```{r, include=TRUE}
 countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
           margin = "5px",)
@@ -299,7 +359,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 
 
-## Tutorials
+# List of Tutorials
 
 1. [Access to WoS database](#access)
 1. [Web of Science Interface](#wos)
@@ -308,87 +368,117 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 1. [Scientific Network visualization](#sci-vos)
 1. [Patent Network visualization](#pat-vos)
 
-##  Access to WoS database {#access}
-### WoS database → Connect to the UL ENT
 
-Use your UL account to access to the databases
 
-![<https://ent.univ-lorraine.fr/#BU> -\> BU Ingénieurs Brabois](figures/01.jpg)
+##  Access to Web of Science database {#access}
 
----
+
+:::{layout="[50,-2,50]" layout-valign="center"}
+:::{}
+
+1. 
+[🔗 Access to UL <br>`https://ent.univ-lorraine.fr/`](https://ent.univ-lorraine.fr/){target="_blank"}
+
+1. Use your UL account to access
+
+:::
+
+![](figures/wos/UL-00.png){fig-align="center" width="60%"}
+
+:::
+
+
+
 
 ### WoS database → Access to the 'Ressources en Ligne'
 
-![Resource online of the UL](figures/01-UL-databases/01.png)
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
 
----
+1. Acces to <br> [`Ressources en Ligne`](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
+
+2. [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
+
+:::
+
+![](figures/01-UL-databases/01.png)
+
+:::
+
+
 
 ### WoS database → UL Web of Science
 
-![Look for the 'Web of Science' database](figures/01-UL-databases/02.png)
 
----
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
 
-### Tutorials
+1. Look for the 'Web of Science' database
 
-1. [Access to WoS database](#access)
-1. [Web of Science Interface](#wos)
-1. [Results on WoS plateform](#wos-results)
-1. [Web of Science: Export results](#wos-export)
-1. [Scientific Network visualization](#sci-vos)
-1. [Patent Network visualization](#pat-vos)
+2. [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
+:::
+![](figures/01-UL-databases/02.png)
+:::
 
 
-## Web of Science Interface {#wos}
-### Simple research mode
+
+## Web of Science Interface → Patent collection 
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+1. Select the <br> **`Derwent Innovation Index`**  <br> database
+
+:::
+![](figures/wos/01.png)
+:::
 
 
-```{r, }
-knitr::include_graphics("figures/05.jpg")
-```
+## Web of Science Interface → Simple research mode
 
----
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
 
-### Web of Science: Go for a Advance research
+1. Structure your <br> **`Search Equation`** 
 
-
-```{r}
-knitr::include_graphics("figures/06.jpg")
-```
-
----
-
-### Web of Science: Add you search query
-
-Remember the:  **Topic + Subject + Problem**
+:::
+![](figures/wos/02.png)
+:::
 
 
-```{r}
-knitr::include_graphics("figures/07.jpg")
-```
+## Web of Science Interface → Results
 
----
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
 
-### Web of Science: Advance search
+1. See the <br> **`Results`** and **`Filters`**
 
-But, take a look of the other type of searches 
-
-```{r, }
-knitr::include_graphics("figures/08.jpg")
-```
+:::
+![](figures/wos/03.png)
+:::
 
 
----
+## Web of Science Interface → Analyse Results
 
-### Web of Science: put the Search Equation
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
 
-<br>
+1. See  <br> **`Analyze Results`**
+1. Explore the differents visualisation options
 
-```{r, }
-knitr::include_graphics("figures/09.jpg")
-```
+   - Subject areas
+   - Assignee Names
+   - Inventors
+   - etc ...
 
----
+
+:::
+![](figures/wos/04.png)
+:::
+
+
+## Web of Science Interface → Export Results
+
 
 ### Tutorials
 
