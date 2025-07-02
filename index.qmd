@@ -479,132 +479,96 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Export Results
 
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
 
-### Tutorials
+1. See  <br> **`Export Results`** → **`Tab Delimited File`**
 
-1. [Access to WoS database](#access)
-1. [Web of Science Interface](#wos)
-1. [Results on WoS plateform](#wos-results)
-1. [Web of Science: Export results](#wos-export)
-1. [Scientific Network visualization](#sci-vos)
-1. [Patent Network visualization](#pat-vos)
-
-
-## Results on WoS plateform {#wos-results}
-
-
-```{r, }
-knitr::include_graphics("figures/10.jpg")
-```
-
-
----
-
-
-### Analyze the Results
-
-
-```{r, }
-knitr::include_graphics("figures/14.jpg")
-```
-
----
-
-### Analyze the Categories
-
-
-```{r, }
-knitr::include_graphics("figures/15.jpg")
-```
-
-
----
-
-### Analyze the Authors
-
-
-```{r, }
-knitr::include_graphics("figures/16.jpg")
-```
-
----
-
-### Analyze the Funding Agencies
-
-
-```{r, }
-knitr::include_graphics("figures/17.jpg")
-```
-
----
-
-### Analyze the Countries
-
-
-```{r, }
-knitr::include_graphics("figures/18.jpg")
-```
-
----
-
-### Tutorials
-
-1. [Access to WoS database](#access)
-1. [Web of Science Interface](#wos)
-1. [Results on WoS plateform](#wos-results)
-1. [Web of Science: Export results](#wos-export)
-1. [Scientific Network visualization](#sci-vos)
-1. [Patent Network visualization](#pat-vos)
-
-
----
-
-## Web of Science: Export results {#wos-export}
-
-
-```{r, }
-knitr::include_graphics("figures/11.jpg")
-```
-
-
----
-
-### Select Tab Deliminated File
-
-
-```{r, }
-knitr::include_graphics("figures/12.jpg")
-```
-
-
----
-
-
-### Export Full record
-
-
-```{r, }
-knitr::include_graphics("figures/13.jpg")
-```
+:::
+![](figures/wos/05.png)
+:::
 
 
 
----
+## Web of Science Interface → Sign In
 
-### Tutorials
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
 
-1. [Access to WoS database](#access)
-1. [Web of Science Interface](#wos)
-1. [Results on WoS plateform](#wos-results)
-1. [Web of Science: Export results](#wos-export)
-1. [Scientific Network visualization](#sci-vos)
-1. [Patent Network visualization](#pat-vos)
+1. Make an Account for   <br> **`Web Of Science`** 
+
+:::
+![](figures/wos/06.png)
+:::
 
 
 
----
+## Web of Science Interface → Sign In
 
-# Scientific Network visualization {#sci-vos}
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+1. Use your Account to Connect   <br> **`Web Of Science`** 
+
+:::
+![](figures/wos/07.png)
+:::
+
+
+## Web of Science Interface → Export Results
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+1. See  <br> **`Export Results`** → **`Custom Selection`**
+
+:::
+![](figures/wos/08.png)
+:::
+
+
+## Web of Science Interface → Export Results
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+1. Select  <br> **`All custom elements`** 
+
+:::
+![](figures/wos/09.png)
+:::
+
+
+
+## Web of Science Interface → Export Results
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+1. Make attention to  <br> **`Export the 1 to 1000 Elements max`** 
+
+:::
+![](figures/wos/10.png)
+:::
+
+
+## Web of Science Interface → Downloas Results
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+1. Download the database <br> **`<Filename.txt>`** 
+
+This is all for this part 🙂
+:::
+![](figures/wos/11.png)
+:::
+
+
+
+
+
+# VOSviewer: Landscape visualization {#sci-vos}
 
 ```{r}
 knitr::include_graphics("figures/vos/01.jpg")
