@@ -110,7 +110,7 @@ The industrial emergence mapping framework.
 
 ![](figures/00.png){width=60% fig-align='center'}
 
-:::{.footnote}
+:::{.footer}
 Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
 :::
 
@@ -273,7 +273,7 @@ So..
 
 
 
-:::{.footnote}
+:::{.footer}
 Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. ](https://doi.org/10.1007/s11192-009-0146-3)
 :::
 
