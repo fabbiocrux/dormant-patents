@@ -21,7 +21,7 @@ format:
     toc-title: Agenda for today
     toc-depth: 1
     center: false
-    number-sections: true
+    number-sections: false
     fig-align: center
     theme: [default, theme/custom.scss]
     logo: "figures/logos/Orion.png"
@@ -361,25 +361,23 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 # List of Tutorials
 
-1. [Access to WoS database](#access)
-1. [Web of Science Interface](#wos)
-1. [Results on WoS plateform](#wos-results)
-1. [Web of Science: Export results](#wos-export)
-1. [Scientific Network visualization](#sci-vos)
-1. [Patent Network visualization](#pat-vos)
+- [Web Of Science Patent Database](#access)
+- [VOSviewer: Landscape visualization](#sci-vos)
 
 
 
-##  Access to Web of Science database {#access}
 
+#  Web Of Science Patent Database {#access}
+
+##  Web Of Science Patent Database
 
 :::{layout="[50,-2,50]" layout-valign="center"}
 :::{}
 
-1. 
+- 
 [🔗 Access to UL <br>`https://ent.univ-lorraine.fr/`](https://ent.univ-lorraine.fr/){target="_blank"}
 
-1. Use your UL account to access
+- Use your UL account to access
 
 :::
 
@@ -395,9 +393,9 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Acces to <br> [`Ressources en Ligne`](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
+- Acces to <br> [`Ressources en Ligne`](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
 
-2. [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
+- [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
 
 :::
 
@@ -413,9 +411,9 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Look for the 'Web of Science' database
+- Look for the 'Web of Science' database
 
-2. [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
+- [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
 :::
 ![](figures/01-UL-databases/02.png)
 :::
@@ -427,7 +425,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Select the <br> **`Derwent Innovation Index`**  <br> database
+- Select the <br> **`Derwent Innovation Index`**  <br> database
 
 :::
 ![](figures/wos/01.png)
@@ -439,7 +437,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Structure your <br> **`Search Equation`** 
+- Structure your <br> **`Search Equation`** 
 
 :::
 ![](figures/wos/02.png)
@@ -451,7 +449,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. See the <br> **`Results`** and **`Filters`**
+- See the <br> **`Results`** and **`Filters`**
 
 :::
 ![](figures/wos/03.png)
@@ -463,8 +461,8 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. See  <br> **`Analyze Results`**
-1. Explore the differents visualisation options
+- See  <br> **`Analyze Results`**
+- Explore the differents visualisation options
 
    - Subject areas
    - Assignee Names
@@ -482,7 +480,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. See  <br> **`Export Results`** → **`Tab Delimited File`**
+- See  <br> **`Export Results`** → **`Tab Delimited File`**
 
 :::
 ![](figures/wos/05.png)
@@ -495,7 +493,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Make an Account for   <br> **`Web Of Science`** 
+- Make an Account for   <br> **`Web Of Science`** 
 
 :::
 ![](figures/wos/06.png)
@@ -508,7 +506,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Use your Account to Connect   <br> **`Web Of Science`** 
+- Use your Account to Connect   <br> **`Web Of Science`** 
 
 :::
 ![](figures/wos/07.png)
@@ -520,7 +518,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. See  <br> **`Export Results`** → **`Custom Selection`**
+- See  <br> **`Export Results`** → **`Custom Selection`**
 
 :::
 ![](figures/wos/08.png)
@@ -532,7 +530,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Select  <br> **`All custom elements`** 
+- Select  <br> **`All custom elements`** 
 
 :::
 ![](figures/wos/09.png)
@@ -545,7 +543,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Make attention to  <br> **`Export the 1 to 1000 Elements max`** 
+- Make attention to  <br> **`Export the 1 to 1000 Elements max`** 
 
 :::
 ![](figures/wos/10.png)
@@ -557,7 +555,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Download the database <br> **`<Filename.txt>`** 
+- Download the database <br> **`<Filename.txt>`** 
 
 This is all for this part 🙂
 :::
@@ -567,7 +565,7 @@ This is all for this part 🙂
 
 
 
-# Vosviewer: Landscape visualization  {#sci-vos background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
+# Vosviewer: Landscape visualization  {#sci-vos .unnumbered background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
 
 Scientific Network visualization
 
@@ -594,10 +592,10 @@ Scientific Network visualization
 
 ## Purpose of VOSviewer tool
 
-1. 🧠 **Knowledge** : 
+- 🧠 **Knowledge** : 
    - Use the patent databases to gain a **semantic world of your problematic** based on the **Titles** of the patents.
 
-1. ✍**Competence**  : 
+- ✍**Competence**  : 
    - Be able to make a **landscape visualisation** of set of documents from a research question.
 
 We use the database download from **Web Of Science** 📜
@@ -609,8 +607,8 @@ We use the database download from **Web Of Science** 📜
 
 **🎯 Goal:**
 
-1. Load the **`Data`** 
-1. Create a  **`Visualisation`** 
+- Load the **`Data`** 
+- Create a  **`Visualisation`** 
 
 :::
 
@@ -622,11 +620,11 @@ We use the database download from **Web Of Science** 📜
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
-1. Open VOSviewer on your PC
-1. Click on **`CREATE`** 
-1. Add <br> **`Create a Map based on text data`** 
+- Open VOSviewer on your PC
+- Click on **`CREATE`** 
+- Add <br> **`Create a Map based on text data`** 
 
-1. **`NEXT`** 
+- **`NEXT`** 
 :::
 
 ![](figures/vos/01.png)
@@ -638,9 +636,9 @@ We use the database download from **Web Of Science** 📜
 :::{}
 
 
-1. Select <br> **`Bibliographic database file`** 
+- Select <br> **`Bibliographic database file`** 
 
-1. **`NEXT`** 
+- **`NEXT`** 
 :::
 
 ![](figures/vos/02.png)
@@ -652,11 +650,11 @@ We use the database download from **Web Of Science** 📜
 :::{}
 
 
-1. Select <br> **`Web Of Science`** 
+- Select <br> **`Web Of Science`** 
 
-1. Seek your **`<Filename.txt>`**  on your PC 
+- Seek your **`<Filename.txt>`**  on your PC 
 
-1. **`NEXT`** 
+- **`NEXT`** 
 :::
 
 ![](figures/vos/03.png)
@@ -668,9 +666,9 @@ We use the database download from **Web Of Science** 📜
 :::{}
 
 
-1. Load your **`<Filename.txt>`**  on your PC 
+- Load your **`<Filename.txt>`**  on your PC 
 
-1. **`NEXT`** 
+- **`NEXT`** 
 :::
 
 ![](figures/vos/04.png)
@@ -683,9 +681,9 @@ We use the database download from **Web Of Science** 📜
 :::{}
 
 
-1. Select <br> **`<Title field>`**  
+- Select <br> **`<Title field>`**  
 
-1. **`NEXT`** 
+- **`NEXT`** 
 :::
 
 ![](figures/vos/05.png)
@@ -698,9 +696,9 @@ We use the database download from **Web Of Science** 📜
 :::{}
 
 
-1. Select <br> **`Binary Counting`**  
+- Select <br> **`Binary Counting`**  
 
-1. **`NEXT`** 
+- **`NEXT`** 
 :::
 
 ![](figures/vos/06.png)
@@ -711,13 +709,11 @@ We use the database download from **Web Of Science** 📜
 
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
-
-
-1. Adjuts the <br> **`Number of Occurences`**  
+- Adjuts the <br> **`Number of Occurences`**  
 
 ⚠️ Attention to the possible keywords that pass the filter
 
-1. **`NEXT`** 
+- **`NEXT`** 
 :::
 
 ![](figures/vos/07.png)
@@ -730,11 +726,11 @@ We use the database download from **Web Of Science** 📜
 :::{}
 
 
-1. Listing of the <br> **`Keywords`**  
+- Listing of the <br> **`Keywords`**  
 
 ⚠️ You can erase `keywords` if neccesary 
 
-1. **`NEXT`** 
+- **`NEXT`** 
 :::
 
 ![](figures/vos/08.png)
@@ -748,9 +744,8 @@ We use the database download from **Web Of Science** 📜
 :::{}
 
 
-1. Select the <br> **`YES`**  
-
-1. **`NEXT`** 
+- Select the <br> **`YES`**  
+- **`NEXT`** 
 
 :::
 
@@ -758,19 +753,173 @@ We use the database download from **Web Of Science** 📜
 :::
 
 
-## VOSviewer → Visualization
+## VOSviewer → Visualization 🙂
+
+
+:::{layout="[50,-2,50]" layout-valign="top"}
+:::{}
+**Network Visualization**
+
+![](figures/vos/10.png)
+:::
+
+:::{}
+**Density Visualization**
+
+![](figures/vos/11.jpg)
+:::
+
+:::
+
+
+# Vosviewer: Analyzing the Authors {.unnumbered}
+
+## Purpose of VOSviewer tool
+
+1. 🧠 **Knowledge** : 
+   - Use the patent databases to unders a **semantic world of your problematic** based on the **Authors** of the patents.
+
+1. ✍**Competence**  : 
+   - Be able to make a **landscape visualisation** of set of documents from a research question.
+
+We use the database download from **Web Of Science** 📜
+
+## VOSviewer → As made before  {.unnumbered}
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+**🎯 Goal:**
+
+- Load the **`Data`** 
+- Create a  **`CREATE`** 
+- Add <br> **`Create a Map based on BIBLIOGRAPHIC data`** 
+:::
+
+![](figures/vos/12.png)
+
+:::
+
+
+
+## VOSviewer → Type of database
 
 :::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
-1. Voilà 🙂
+- Select <br> **`Bibliographic database file`** 
 
+- **`NEXT`** 
 :::
 
-![](figures/vos/10.png)
+![](figures/vos/13.png)
+:::
+
+## VOSviewer → Type of database
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Select <br> **`Web Of Science`** 
+
+- Seek your **`<Filename.txt>`**  on your PC 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/14.png)
+:::
+
+## VOSviewer → Load of database
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select your <br> **`Co-Authorship`** > **`Author`** 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/15.png)
 :::
 
 
+## VOSviewer → Filters
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
 
 
+- Attention to the filters criteria 
+   - Minimun of Documents
+   - Citations 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/16.png)
+:::
+
+
+## VOSviewer → Counting
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select <br> **`Binary Counting`**  
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/17.png)
+:::
+
+
+## VOSviewer → Authors to be selected
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+- Adjuts the <br> **`Authors to be selected`**  
+
+⚠️ Attention to the possible keywords that pass the filter
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/18.png)
+:::
+
+
+## VOSviewer → Validation of Connections
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Put **`YES`** 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/19.png)
+:::
+
+## VOSviewer → Authors Landscape
+
+:::{layout="[50,-2,50]" layout-valign="top"}
+:::{}
+**Network Visualization**
+
+![](figures/vos/20.png)
+:::
+
+:::{}
+**Density Visualization**
+
+![](figures/vos/21.png)
+:::
+
+:::
