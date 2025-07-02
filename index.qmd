@@ -552,7 +552,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::
 
 
-## Web of Science Interface → Downloas Results
+## Web of Science Interface → Download Results
 
 :::{layout="[30,-2,70]" layout-valign="center"}
 :::{}
@@ -567,64 +567,211 @@ This is all for this part 🙂
 
 
 
+# Vosviewer: Landscape visualization  {#sci-vos background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
 
-# VOSviewer: Landscape visualization {#sci-vos}
+Scientific Network visualization
 
-```{r}
-knitr::include_graphics("figures/vos/01.jpg")
-```
-
-Download Vosviewer at [https://www.vosviewer.com/](https://www.vosviewer.com/)
-
----
-
-## Small introduction to VosViwer
+⬇️ [https://www.vosviewer.com/](https://www.vosviewer.com/)
 
 
+
+## Small introduction to VosViewer
+
+:::{layout="[50,50]"}
+:::{}
+- Focus on visualization of scientometric networks
+- Support for large number of data sources
+- Text mining functionality
+- Advanced visualization features
+- Relatively easy to use
+- Limited analysis options
+- Developed at CWTS
+:::
 
 {{< video https://www.youtube.com/embed/9dTWkNRxUtw width="1200" height="500"  >}}
+:::
 
 
----
+## Purpose of VOSviewer tool
 
-## Add data: from `Bibliographic database file`
+1. 🧠 **Knowledge** : 
+   - Use the patent databases to gain a **semantic world of your problematic** based on the **Titles** of the patents.
 
+1. ✍**Competence**  : 
+   - Be able to make a **landscape visualisation** of set of documents from a research question.
 
-```{r}
-knitr::include_graphics("figures/vos/02.jpg")
-```
+We use the database download from **Web Of Science** 📜
 
----
+## VOSviewer → First Steps
 
-## Add data: from `Bibliographic database file`
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
 
+**🎯 Goal:**
 
-```{r}
-knitr::include_graphics("figures/vos/03.jpg")
-```
+1. Load the **`Data`** 
+1. Create a  **`Visualisation`** 
 
+:::
 
----
-
-## Add data: Select the `.txt` files from WoS
-
-
-```{r}
-knitr::include_graphics("figures/vos/04.jpg")
-```
-
----
-
-## Add data: Analysing Keyworkds
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/vos/05.jpg")
-```
+:::
 
 
----
+## VOSviewer → Load database
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+1. Open VOSviewer on your PC
+1. Click on **`CREATE`** 
+1. Add <br> **`Create a Map based on text data`** 
+
+1. **`NEXT`** 
+:::
+
+![](figures/vos/01.png)
+:::
+
+## VOSviewer → Type of database
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+
+1. Select <br> **`Bibliographic database file`** 
+
+1. **`NEXT`** 
+:::
+
+![](figures/vos/02.png)
+:::
+
+## VOSviewer → Type of database
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+
+1. Select <br> **`Web Of Science`** 
+
+1. Seek your **`<Filename.txt>`**  on your PC 
+
+1. **`NEXT`** 
+:::
+
+![](figures/vos/03.png)
+:::
+
+## VOSviewer → Load of database
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+
+1. Load your **`<Filename.txt>`**  on your PC 
+
+1. **`NEXT`** 
+:::
+
+![](figures/vos/04.png)
+:::
+
+
+## VOSviewer → Title Field
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+
+1. Select <br> **`<Title field>`**  
+
+1. **`NEXT`** 
+:::
+
+![](figures/vos/05.png)
+:::
+
+
+## VOSviewer → Title Field
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+
+1. Select <br> **`Binary Counting`**  
+
+1. **`NEXT`** 
+:::
+
+![](figures/vos/06.png)
+:::
+
+
+## VOSviewer → Number of Occurences
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+
+1. Adjuts the <br> **`Number of Occurences`**  
+
+⚠️ Attention to the possible keywords that pass the filter
+
+1. **`NEXT`** 
+:::
+
+![](figures/vos/07.png)
+:::
+
+
+## VOSviewer → Keywords
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+
+1. Listing of the <br> **`Keywords`**  
+
+⚠️ You can erase `keywords` if neccesary 
+
+1. **`NEXT`** 
+:::
+
+![](figures/vos/08.png)
+:::
+
+
+
+## VOSviewer → Visualization
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+
+1. Select the <br> **`YES`**  
+
+1. **`NEXT`** 
+
+:::
+
+![](figures/vos/09.png)
+:::
+
+
+## VOSviewer → Visualization
+
+:::{layout="[30,-2,70]" layout-valign="center"}
+:::{}
+
+
+1. Voilà 🙂
+
+:::
+
+![](figures/vos/09.png)
+:::
+
+
 
 ## Add data: Minimum number of Occurrencies for Keyworkds
 
