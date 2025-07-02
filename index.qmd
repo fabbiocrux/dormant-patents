@@ -88,6 +88,13 @@ PESTEL
 
 ## Pedagogical goal of this afternoon {.unnumbered}
 
+:::{.callout-tip title="🚨 Goal of the Day"}
+
+**Select 3 Patents !!!**
+
+:::
+
+
 1. 🧠 **Knowledge** : 
    - Use the patent databases to gain a **semantic world of your problematic**. 
 
@@ -171,11 +178,9 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 
 
 ::: {.callout-tip}
-## Tutorials 
+**Tutorials**
 
-1. [🔑 To Acces to WoS](#access)
-1. [🖥️ To the Interface](#wos)
-1. [📊 To the Results ](#wos-results)
+1. [🔑 To Acces to WoS](#wos)
 
 :::
 :::
@@ -206,7 +211,6 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 ![**Derwent Innovations Index**](figures/01-UL-databases/04.png){fig-align="center"}
 :::
 :::
-
 
 
 
@@ -264,7 +268,17 @@ So..
 
 ![Software: VOSviewer](figures/vos/09.jpg){fig-align="center"}
 
+
+:::{}
 [⬇️ Download at <br> https://www.vosviewer.com/](https://www.vosviewer.com/)
+
+::: {.callout-tip}
+**Tutorials**
+
+1. [🔑 VOSviewer: First Steps WoS](#sci-vos)
+
+:::
+:::
 
 :::
 
@@ -357,13 +371,13 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 # List of Tutorials
 
-- [Web Of Science Patent Database](#access)
+- [Web Of Science Patent Database](#wos)
 - [VOSviewer: Landscape visualization](#sci-vos)
 
 
 
 
-#  Web Of Science Patent Database {#access}
+#  Web Of Science Patent Database {#wos}
 
 ##  Web Of Science Patent Database
 
@@ -558,6 +572,17 @@ This is all for this part 🙂
 ![](figures/wos/11.png)
 :::
 
+
+## Web of Science Interface → Filter Patents
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Filter  the Patent based on a <br> **`*Criteria*`** 
+
+:::
+![](figures/wos/22.png)
+:::
 
 
 
