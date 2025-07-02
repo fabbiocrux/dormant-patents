@@ -124,7 +124,7 @@ Framework developed in the Aeronautical field.
 
 ![](figures/TRL-01.png){width="70%" fig-align="center"}
 
-::: aside
+::: footer
 Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
 :::
 
@@ -132,7 +132,7 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 
 ![](figures/TRL-03.png){width="70%" fig-align="center"}
 
-::: aside
+::: footer
 Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
 :::
 
@@ -267,10 +267,6 @@ So..
 [⬇️ Download at <br> https://www.vosviewer.com/](https://www.vosviewer.com/)
 
 :::
-
-
-
-
 
 
 :::{.footer}
