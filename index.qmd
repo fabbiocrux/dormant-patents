@@ -586,7 +586,7 @@ This is all for this part 🙂
 
 
 
-# Vosviewer: Landscape visualization  {#sci-vos .unnumbered background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
+# Vosviewer: <br>Landscape <br> visualization  {#sci-vos .unnumbered background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
 
 Scientific Network visualization
 
@@ -632,7 +632,8 @@ We use the database download from **Web Of Science** 📜
 - Create a  **`Visualisation`** 
 
 :::
-
+![](figures/article.jpg)
+Analysing *Patents Titles*
 :::
 
 
@@ -794,6 +795,10 @@ We use the database download from **Web Of Science** 📜
 
 
 # Vosviewer: Analyzing the Authors {.unnumbered}
+
+![](figures/author.jpg){fig-align="center"}
+
+
 
 ## Purpose of VOSviewer tool
 
