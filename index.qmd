@@ -392,7 +392,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ### WoS database → Access to the 'Ressources en Ligne'
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Acces to <br> [`Ressources en Ligne`](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
@@ -410,7 +410,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 ### WoS database → UL Web of Science
 
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Look for the 'Web of Science' database
@@ -424,7 +424,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Patent collection 
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Select the <br> **`Derwent Innovation Index`**  <br> database
@@ -436,7 +436,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Simple research mode
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Structure your <br> **`Search Equation`** 
@@ -448,7 +448,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Results
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. See the <br> **`Results`** and **`Filters`**
@@ -460,7 +460,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Analyse Results
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. See  <br> **`Analyze Results`**
@@ -479,7 +479,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Export Results
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. See  <br> **`Export Results`** → **`Tab Delimited File`**
@@ -492,7 +492,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Sign In
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Make an Account for   <br> **`Web Of Science`** 
@@ -505,7 +505,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Sign In
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Use your Account to Connect   <br> **`Web Of Science`** 
@@ -517,7 +517,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Export Results
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. See  <br> **`Export Results`** → **`Custom Selection`**
@@ -529,7 +529,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Export Results
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Select  <br> **`All custom elements`** 
@@ -542,7 +542,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Export Results
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Make attention to  <br> **`Export the 1 to 1000 Elements max`** 
@@ -554,7 +554,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 ## Web of Science Interface → Download Results
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Download the database <br> **`<Filename.txt>`** 
@@ -604,7 +604,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → First Steps
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 **🎯 Goal:**
@@ -619,7 +619,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Load database
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 1. Open VOSviewer on your PC
@@ -634,7 +634,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Type of database
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
@@ -648,7 +648,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Type of database
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
@@ -664,7 +664,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Load of database
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
@@ -679,7 +679,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Title Field
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
@@ -694,7 +694,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Title Field
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
@@ -709,7 +709,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Number of Occurences
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
@@ -726,7 +726,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Keywords
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
@@ -744,7 +744,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Visualization
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
@@ -760,7 +760,7 @@ We use the database download from **Web Of Science** 📜
 
 ## VOSviewer → Visualization
 
-:::{layout="[30,-2,70]" layout-valign="center"}
+:::{layout="[40,-2,60]" layout-valign="center"}
 :::{}
 
 
@@ -768,246 +768,9 @@ We use the database download from **Web Of Science** 📜
 
 :::
 
-![](figures/vos/09.png)
+![](figures/vos/10.png)
 :::
 
 
-
-## Add data: Minimum number of Occurrencies for Keyworkds
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/vos/06.jpg")
-```
-
-
----
-
-## Add data: Keywords to be plotted
-
-<br>
-
-
-```{r}
-knitr::include_graphics("figures/vos/07.jpg")
-```
-
-
----
-
-## Add data: Verify if Keywords are correct
-
-Attention to the Redundancies
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/vos/08.jpg")
-```
-
-
-
-## Network Visualitation
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/vos/09.jpg")
-```
-
----
-
-
-## Overlay Visualitation
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/vos/10.jpg")
-```
-
----
-
-## Overlay Visualitation: Selecting the node
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/vos/09-1.jpg")
-```
-
-
-
----
-
-
-## Density Visualization
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/vos/11.jpg")
-```
-
-
-
-# Patents Network visualization{#pat-vos}
-
-
-## Clarivate for Patents
-
-```{r}
-knitr::include_graphics("figures/patents/01.jpg")
-```
-
-
----
-
-## Clarivate for Patents: use the search equation
-
-
-```{r}
-knitr::include_graphics("figures/patents/02.jpg")
-```
-
-
----
-
-## Clarivate for Patents: Export the Data
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/03.jpg")
-```
-
----
-
-## Clarivate for Patents: Full record
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/04.jpg")
-```
-
----
-
-## Don't forget use the analyze tool for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/04-1.jpg")
-```
-
----
-
-## VOSviewer for Patents: Create from `text data`.
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/05.jpg")
-```
-
-
----
-
-## VOSviewer for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/06.jpg")
-```
-
----
-
-## VOSviewer for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/07.jpg")
-```
-
-
----
-
-## VOSviewer for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/08.jpg")
-```
-
-
----
-
-## VOSviewer for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/09.jpg")
-```
-
-
----
-
-## VOSviewer for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/10.jpg")
-```
-
-
----
-
-## VOSviewer for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/11.jpg")
-```
-
-
----
-
-## VOSviewer for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/12.jpg")
-```
-
-
----
-
-## VOSviewer for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/13.jpg")
-```
-
-
----
-
-## VOSviewer for Patents
-
-<br>
-
-```{r}
-knitr::include_graphics("figures/patents/14.jpg")
-```
 
 
