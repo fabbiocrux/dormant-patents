@@ -26,7 +26,7 @@ format:
     theme: [default, theme/custom.scss]
     logo: "figures/logos/Orion.png"
     header-logo: "figures/logos/ENSGSI.png"
-    header: '[Think Innovation Week 2025](#/TOC)'
+    header: '[Think Innovation Week 2026](#/TOC)'
     slide-level: 3
     #subtitle-as-header: true
     sc-sb-title: false
@@ -35,6 +35,8 @@ format:
 filters:
   - reveal-header
 ---
+
+
 
 ```{r setup, include=FALSE}
 # Load packages -----
@@ -88,12 +90,6 @@ PESTEL
 
 ## Pedagogical goal of this afternoon {.unnumbered}
 
-:::{.callout-tip title="🚨 Goal of the Day"}
-
-**Select 3 Patents !!!**
-
-:::
-
 
 1. 🧠 **Knowledge** : 
    - Use the patent databases to gain a **semantic world of your problematic**. 
@@ -105,17 +101,75 @@ PESTEL
    - Be able to make a **landscape visualisation** of set of documents from a research question.
 
 
+:::{.callout-tip title="🚨 Goal of the Day"}
+
+**Select 3 Patents !!!**
+
+:::
+
 
 Before, We need to understand how **Technology Emergency** is made ...
 
 # Flash Course: Technology Landscape
+
+1. Technology Life Cycles: *Emergence to decline* 
+2. Technolology Maturity: *from concepts to artifacts*
+3. The Role of Patents
+
+
+## Why Study Technology Life Cycles?
+
+:::{layout="[50,50]" layout-align="center"}
+:::{}
+Key questions:
+
+- Why do some technologies grow fast and dominate?
+- Why do others disappear?
+- Can we predict technological substitution?
+:::
+
+:::{}
+**Engineering relevance:**
+
+1. R&D strategy
+2. Innovation management
+3. Investment decisions
+4. Career positioning
+:::
+:::
+
+## Technology Readiness → Maturity {.nostretch}
+
+Analysis Fisher-Pry (Logistique curve : Model S)
+
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Performance vs Time (S-curve)
+- Technology substitution (Fisher-Pry)
+
+:::
+![](figures/Brunelle-00.png){width=60% fig-align='center'}
+:::
+
+
+
 
 
 ## Technology Readiness → Maturity {.nostretch}
 
 The industrial emergence mapping framework.
 
-![](figures/00.png){width=60% fig-align='center'}
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+:::
+![](figures/Phaal-00.png){width=60% fig-align='center'}
+:::
+
 
 :::{.footer}
 Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
@@ -949,3 +1003,4 @@ We use the database download from **Web Of Science** 📜
 :::
 
 :::
+
