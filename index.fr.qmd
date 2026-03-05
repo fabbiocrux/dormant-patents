@@ -29,7 +29,7 @@ format:
     sc-sb-title: false
     footer: ' '
     chalkboard: false
-    auto-stretch: false
+    auto-stretch: true
     menu:
       side: right
       width: wide
