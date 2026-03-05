@@ -1,6 +1,6 @@
 ---
 title: "Cours Flash :<br>**Veille technologique et prospective**"
-subtitle: "Paysages bibliométriques"  
+subtitle: "*Landscape* des Brevets"  
 email: "cruzsanc1@univ-lorraine.fr"
 author: 
   - "Prof. Mauricio CAMARGO"
@@ -209,7 +209,7 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 :::
 
 
-### Modèle STAM {background-image="figures/Polymere-00.jpg" background-size="450px" background-position="90% 50%"}
+### Modèle STAM {background-image="figures/Polymere-00.jpg" background-size="500px" background-position="90% 50%"}
 
 :::{layout="[35,-1,65]" layout-valign="top"}
 
@@ -262,7 +262,7 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 :::
 
 
-### Modèle STAM {background-image="figures/Polymere-01.jpg" background-size="450px" background-position="90% 50%"}
+### Modèle STAM {background-image="figures/Polymere-01.jpg" background-size="800px" background-position="90% 50%"}
 
 :::{layout="[35,-1,65]" layout-valign="top"}
 
@@ -317,7 +317,7 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 
 
 
-### Modèle STAM {background-image="figures/Polymere-02.jpg" background-size="450px" background-position="90% 50%"}
+### Modèle STAM {background-image="figures/Polymere-02.jpg" background-size="800px" background-position="90% 50%"}
 
 :::{layout="[35,-1,65]" layout-valign="top"}
 
@@ -377,7 +377,35 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 :::
 
 
-### Modèle STAM {background-image="figures/Chris-Jordan.jpg" background-size="450px" background-position="90% 50%"}
+### Modèle STAM 
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+`Precurseur`:
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+`Embrionique`:
+![](figures/Brunelle-05.png){width=100% fig-align='center'} 
+
+`Croissance`:
+![](figures/Brunelle-06.png){width=100% fig-align='center'} 
+
+`Maturité`
+![](figures/Brunelle-07.png){width=100% fig-align='center'} 
+
+
+
+:::
+
+::: {.callout-note title="Ex: L'explosion des produits plastique ..."}
+![](figures/Plastics-00.png){width=100% fig-align='center' } 
+:::
+
+:::
+
+### Modèle STAM 
 
 :::{layout="[35,-1,65]" layout-valign="top"}
 
@@ -400,11 +428,13 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 :::
 
 ::: {.callout-note title="Ex: Quelle suite pour le plastique ?"}
-Photo Chris Jordan, Plastique dans l'océan, 2011
+Photo de Chris Jordan 2011, photographe américain, qui a documenté l'impact environnemental du plastique à travers des œuvres visuellement frappantes.
+
+![](figures/Chris-Jordan.jpg){width=100% fig-align='center' } 
 :::
 
-
 :::
+
 
 
 
@@ -461,15 +491,15 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 ::: {.r-stack}
 ![](figures/NPD-0.png){width="70%" fig-align="center"}
 
-![](figures/NPD-1.png){.fragment .absolute width="500"  top=250 left=0}
+![](figures/NPD-5.png){.fragment .absolute width="500"  top=250 left=0}
 
-![](figures/NPD-2.png){.fragment width="500" fig-align="center"}
+![](figures/NPD-4.png){.fragment width="500" fig-align="center"}
 
 ![](figures/NPD-3.png){.fragment .absolute top=50 right=50 width="400" }
 
-![](figures/NPD-4.png){.fragment .absolute top=250 left=0 width="500" }
+![](figures/NPD-2.png){.fragment .absolute top=250 left=0 width="500" }
 
-![](figures/NPD-5.png){.fragment  width="800" fig-align="center"}
+![](figures/NPD-1.png){.fragment  width="800" fig-align="center"}
 :::
 
 

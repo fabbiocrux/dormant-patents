@@ -47,3 +47,77 @@ $presentation-heading-font: "News Cycle", sans-serif !default;
 .tiny , .tiny .remark-code, .tiny .remark-inline-code {
   font-size: 60%;
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*-- scss:defaults --*/
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #ddd !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$morado: #642C81 !default;
+$orange: #f37703 !default;
+$amarillo: #FFDC00 !default;
+
+
+$red: #f34213 !default;
+$purple: #3e2f5b !default;
+$orange: #ff8811 !default;
+$green: #d9edc2 !default;
+$grey: #F5F5F5 !default;
+$yellow: #FAFE83 !default;
+$blue: #1381B0 !default;
+$grey_Inedit: #969696 !default;
+
+$navy: #37455a;
+$cyan: #a3d9cb;
+$peach: #ff9d7a;
+
+$colors: (
+  red: $red,
+  navy: $navy,
+  blue: $blue,
+  cyan: $cyan,
+  peach: $peach,
+  green: $green,
+  yellow: $yellow,
+);
+
+
+
+
+// headings
+$presentation-heading-font: "Palatino Linotype", "Book Antiqua", Palatino,
+  FreeSerif, serif !default;
+$presentation-heading-color: $morado;
+
+.caption{
+  text-align: center;
+}
+
+
+.reveal .slide aside,.reveal .slide div.aside {
+  position: absolute;
+  bottom: -10px;
+  font-size: 0.7em;
+  color: #f60e0e
+}
+
+
+.reveal .r-fit-text {
+  display: inline-block;
+  white-space: nowrap;  
+}
+
+
+
