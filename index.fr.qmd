@@ -200,7 +200,7 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011.
 
 :::
 
-![](figures/Phaal-01.png){width=100% fig-align='center'}
+![](figures/Phaal-01.png){width=800px fig-align='center'}
 :::
 
 :::{.footer}
