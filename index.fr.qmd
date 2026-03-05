@@ -72,7 +72,7 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 ```
 
 
-# Où en sommes-nous ? {.unnumbered background-image="figures/Step-1.jpg" background-size="400px" background-position="100% 50%"}
+# Où en sommes-nous ? {.unnumbered background-image="figures/Step-1.jpg" background-size="700px" background-position="100% 50%"}
 
 :::{layout="[30,50]" layout-valign="center"}
 
