@@ -30,6 +30,10 @@ format:
     footer: ' '
     chalkboard: false
     auto-stretch: false
+    menu:
+      side: right
+      width: wide
+      numbers: false  
 filters:
   - reveal-header
 ---
@@ -102,7 +106,7 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 ## Qu'est ce que c'est une *technologie* ?
 
-Technologie: `Connaisences` + `Artefact` + `Application`
+Technologie: `Connaissances` + `Artéfact` + `Application`
 
 :::{layout="[30,70]" layout-valign="center"}
 ![](figures/Impresion.png){width=50% fig-align='center'}
@@ -137,22 +141,27 @@ Technologie: `Connaisences` + `Artefact` + `Application`
 
 
 
-## Maturité technologique : *Des concepts aux artefacts*
+## Maturité technologique : *Des concepts aux artefacts*{.smaller}
 
 **Analysis Fisher-Pry**
 
-:::{layout="[40,-2,60]" layout-valign="center"}
+:::{layout="[60,-2,40]" layout-valign="center"}
+
+![](figures/Brunelle-00.png){width=60% fig-align='center'}
+
 :::{}
 
 - Performance vs Time (S-curve)
 - Technology substitution (Fisher-Pry)
 - Prrformance en tant que fonction du temps
-     - Chiffre d'affaires `$`
-     - Nombre de produits vendus
-     - Nombre de brevets
-     - Nombre de publications
+     - 💸 Chiffre d'affaires 
+     - 🛒 Nombre de produits vendus
+     - 📑 Nombre de brevets
+     - 🗂️ Nombre de publications
+
+![](figures/Brunelle-08.png){width=300px fig-align='center'}
+
 :::
-![](figures/Brunelle-00.png){width=60% fig-align='center'}
 :::
 
 
@@ -210,7 +219,7 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 ![](figures/Brunelle-04.png){width=100% fig-align='center'} 
 
 
-::: {.callout-note title="Les Plastiques"}
+::: {.callout-note title="Ex: Les Plastiques"}
 Le domain du **`Plastiques`** implique:
 
 - Notion de *polymères*
@@ -265,7 +274,7 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 `Embrionique`:
 ![](figures/Brunelle-05.png){width=100% fig-align='center'} 
 
-::: {.callout-note title="Procéde de Vulcanisation"}
+::: {.callout-note title="Ex: Procéde de Vulcanisation"}
 
 La découverte de la "`Vulcanisation`" par Charles Goodyear en 1839 a permis de transformer le caoutchouc naturel en un matériau plus durable et élastique, ouvrant la voie à l'industrie du plastique.
 
@@ -324,7 +333,7 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 ![](figures/Brunelle-06.png){width=100% fig-align='center'} 
 
 
-::: {.callout-note title="Procéde de Vulcanisation"}
+::: {.callout-note title="Ex: Produits de la Vulcanisation"}
 
 La "`Vulcanisation`" → Plethora de nouveaux `matériaux plastiques` → Croissance rapide de l'industrie du plastique au 20ème siècle.
 
@@ -390,8 +399,7 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 
 :::
 
-::: {.callout-note title="Quelle suite pour le plastique ?"}
-
+::: {.callout-note title="Ex: Quelle suite pour le plastique ?"}
 Photo Chris Jordan, Plastique dans l'océan, 2011
 :::
 
@@ -404,7 +412,13 @@ Photo Chris Jordan, Plastique dans l'océan, 2011
 
 Cadre de référence developpé par la NASA pour évaluer la maturité d'une technologie, de la recherche fondamentale à l'application commerciale.
 
+:::{layout="[70,30]" layout-valign="center"}
+
 ![[Technology Readiness Levels (TRL)](https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shaping_the_Future/Technology_Readiness_Levels_TRL)](figures/TRL-00.png)
+
+![](figures/TLR-Nasa.png){width=350px fig-align='center'}
+:::
+
 
 ### TLR → `The Valley of Death`
 
@@ -414,21 +428,33 @@ Cadre de référence developpé par la NASA pour évaluer la maturité d'une tec
 Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
 :::
 
-### Technology Readiness → Challenges TRL4 - TRL7
+### `TLR` → Défis TRL4 - TRL7 {.smaller}
 
-![](figures/TRL-03.png){width="70%" fig-align="center"}
+:::{layout="[50,70]" layout-valign="center"}
+
+:::{}
+
+-   Manque **d'outils pour analyser l'intégration technologique** en phase précoce (TRL 1-5).
+-   **Décalage** entre besoins d'information et disponibilité.
+-   Nécessité d'une **approche interdisciplinaire**.
+:::
+
+![](figures/TRL-03.png){width="100%" fig-align="center"}
+
+:::
+
 
 ::: footer
 Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
 :::
 
-### `TLR` → Défis TRL4 - TRL7
-
--   Manque **d'outils pour analyser l'intégration technologique** en phase précoce (TRL 1-5).
--   **Décalage** entre besoins d'information et disponibilité.
--   Nécessité d'une **approche interdisciplinaire**.
 
 
+
+
+## Le rôle des brevets dans l'Emergence Industrielle
+
+![](figures/Brunelle-09.png){width=100% fig-align='center'}
 
 ## `TLR` → Evolution
 
@@ -446,10 +472,6 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 ![](figures/NPD-5.png){.fragment  width="800" fig-align="center"}
 :::
 
-
-
-
-## Le rôle des brevets dans l'Emergence Industrielle
 
 
 
@@ -499,11 +521,11 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 ![**Expand the State of the Art via the patent analysis**](figures/TRL-06.png){fig-align="center"}
 
 :::{}
-An overview on the space of patents enabling :  
+Une vue d'ensemble de l'espace des brevets permettant :
 
-- Validating the relevance of your concepts 
-- Listing more cited patents 
-- Identifying key players (assignees) and links
+- De valider la pertinence de vos concepts
+- De répertorier les brevets les plus cités (et/ou pertinents)
+- D'identifier les acteurs clés (cessionnaires) et les liens
 :::
 :::
 
@@ -511,7 +533,7 @@ An overview on the space of patents enabling :
 ---
 
 :::{.large}
-So..  
+Donc..  
 :::
 
 ![](https://media.giphy.com/media/xT39Db8zIOODTppk08/giphy-downsized-large.gif){width=50% fig-align=center}
@@ -525,30 +547,30 @@ So..
 
 ::: columns
 ::: {.column width="30%"}
-![Goal Step 2a : Define the research questions](figures/Step-2a.jpg){fig-align="center"}
+![But `Step 2a` : Définir les questions de recherche](figures/Step-2a.jpg){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
-![Goal: Define research equation](figures/Step-2b.jpg){fig-align="center"}
+![But `Step 2b` : Définir l'équation de recherche](figures/Step-2b.jpg){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
-![Goal Step 2c: Visualize & Analize Patent databases](figures/Step-2c.jpg){fig-align="center"}
+![But `Step 2c` : Visualiser et analyser les bases de données de brevets](figures/Step-2c.jpg){fig-align="center"}
 :::
 
 :::
 
 
-## Bibliometric mapping: Vosviewer
+## Analyse Bibliométrique: VOSviewer
 
 
 :::{layout="[45,-5,45]" layout-valign="top"}
 
-![Software: VOSviewer](figures/vos/09.jpg){fig-align="center"}
+![Logiciel: VOSviewer](figures/vos/09.jpg){fig-align="center"}
 
 
 :::{}
-[⬇️ Download at <br> https://www.vosviewer.com/](https://www.vosviewer.com/)
+[⬇️ Télécharger sur <br> https://www.vosviewer.com/](https://www.vosviewer.com/)
 
 ::: {.callout-tip}
 **Tutorials**
@@ -574,10 +596,10 @@ Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a compute
 
 :::{}
 
-**🎯 Goal:**
+**🎯 But:**
 
-- Based on the canvas, Identify a **research question** from a general topic that you want to study. 
-    - Define two or three specific research topics that complete the general research question. 
+- À partir du canevas et du `Step 1`, identifiez une **question de recherche** à que vous souhaitez étudier en profondeur.
+- Identifiez deux ou trois sujets de perspective spécifiques qui complètent la question de recherche générale. 
 
 
 ```{r, include=TRUE}
@@ -591,7 +613,7 @@ countdown(minutes = 30, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 
 
-## Step 2b: Patent screening and analysis
+## Step 2b: Analyse des brevets
 
 :::{layout="[45,-2,50]" layout-valign="top"}
 
@@ -600,9 +622,9 @@ countdown(minutes = 30, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{}
 **🎯 Goal:**
 
-- Identify the *Concepts* and semantic world of the research questions based on the canva. 
-- Structure a *replicable search equation* based on the 'Venn Diagram' approach. 
-- Use scientific databases [🔗 Web of Science](https://www-webofscience-com.bases-doc.univ-lorraine.fr/wos/woscc/basic-search) 
+- Identifier les *concepts* et l'univers sémantique des questions de recherche à partir du canva.
+- Structurer une *équation de recherche reproductible* à partir de l'approche du « diagramme de Venn ».
+- Utiliser des bases de données scientifiques. [🔗 Web of Science](https://www-webofscience-com.bases-doc.univ-lorraine.fr/wos/woscc/basic-search) 
 
 <br>
 <br>
