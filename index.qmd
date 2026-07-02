@@ -32,6 +32,10 @@ format:
     sc-sb-title: false
     footer: ' '
     chalkboard: true
+    menu:
+      side: right
+      width: wide
+      numbers: false      
 filters:
   - reveal-header
 ---
@@ -73,18 +77,13 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 
 
-# Where are we? {.unnumbered}
+# Where are we? {.unnumbered background-image="figures/Step-1.jpg" background-size="700px" background-position="100% 50%"}
 
-::: {layout="[1,1]"}
+:::{layout="[30,50]" layout-valign="center"}
 
-*The Dermatological Avatar*
+- **`PESTEL`** : <br>Analysis of the key external factors
+- **`OLAP`** : <br>Refraiming the project
 
-*Collecting clouds*
-
-:::
-
-::: {.r-fit-text}
-PESTEL 
 :::
 
 
@@ -95,20 +94,23 @@ PESTEL
    - Use the patent databases to gain a **semantic world of your problematic**. 
 
 1. 🔨 **Know-how** : 
-   - Search on pertinent **patent and scientific databases** such as **WoS** 
+   - Search on pertinent **patent databases** such as **WoS**.
 
 1. ✍**Competence**  : 
-   - Be able to make a **landscape visualisation** of set of documents from a research question.
+   - Be able to make a **landscape visualisation** of patents.
 
 
 :::{.callout-tip title="🚨 Goal of the Day"}
 
-**Select 3 Patents !!!**
+**Select at least 5 Patents !**
 
 :::
 
+---
 
 Before, We need to understand how **Technology Emergency** is made ...
+
+
 
 # Flash Course: Technology Landscape
 
@@ -117,15 +119,27 @@ Before, We need to understand how **Technology Emergency** is made ...
 3. The Role of Patents
 
 
+## What is a *technology* ?
+
+Technology: `Knowledge` + `Artifact` + `Application`
+
+:::{layout="[30,70]" layout-valign="center"}
+![](figures/Impresion.png){width=50% fig-align='center'}
+
+![](figures/Brunelle-03.png){width=50% fig-align='center'}
+:::
+
+
+
 ## Why Study Technology Life Cycles?
 
 :::{layout="[50,50]" layout-align="center"}
 :::{}
 Key questions:
 
-- Why do some technologies grow fast and dominate?
-- Why do others disappear?
-- Can we predict technological substitution?
+- 📈 Why do some technologies grow fast and dominate?
+- 📉 Why do others disappear?
+- 👨‍💻 Can we predict technological substitution?
 :::
 
 :::{}
@@ -143,15 +157,303 @@ Key questions:
 Analysis Fisher-Pry (Logistique curve : Model S)
 
 
-:::{layout="[40,-2,60]" layout-valign="center"}
+
+:::{layout="[60,-2,40]" layout-valign="center"}
+
+![](figures/Brunelle-00.png){width=60% fig-align='center'}
+
 :::{}
 
 - Performance vs Time (S-curve)
 - Technology substitution (Fisher-Pry)
+- Performance as a function of:
+     - 💸 Revenue 
+     - 🛒 Sells products
+     - 📑 Number of Patents
+     - 🗂️ Nomber of Publications
+
+![](figures/Brunelle-08.png){width=300px fig-align='center'}
 
 :::
-![](figures/Brunelle-00.png){width=60% fig-align='center'}
 :::
+
+
+
+
+
+### Industrial emergence → Modèle STAM
+
+[`Precursor` → `Embryonic` → `Nurture` → `Growth` → `Decline / Substitution`]{.r-fit-text}
+
+:::{layout="[35,-1,65]" layout-valign="center"}
+
+:::{}
+
+- Model STAM (Phaal et al., 2011)
+
+:::
+
+![](figures/Phaal-00.png){width=100% fig-align='center'}
+:::
+
+
+:::{.footer}
+Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. 
+<br>A framework for mapping industrial emergence. 
+<br>Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
+:::
+
+
+
+### Industrial emergence → Modèle STAM
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+`Precursor`: 'Science'
+
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+:::
+
+![](figures/Phaal-01.png){width=800px fig-align='center'}
+:::
+
+:::{.footer}
+Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. 
+<br>Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
+:::
+
+
+### STAM model {background-image="figures/Polymere-00.jpg" background-size="500px" background-position="90% 50%"}
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+`Precursor`:
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+
+::: {.callout-note title="Ex: Plastics"}
+The field of **`Plastiqcs`** imply:
+
+- Notion of *polymers*
+- Concept of molecular chain.
+- Polymerization process.
+- **Natural Rubber** Inspiration from nature
+- Chemical structures
+:::
+
+:::
+
+:::
+
+:::{.footer}
+
+:::
+
+
+
+
+### Industrial emergence → Modèle STAM
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+`Precursor`:
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+`Embryonic`:
+![](figures/Brunelle-05.png){width=100% fig-align='center'} 
+
+:::
+
+![](figures/Phaal-02.png){width=100% fig-align='center'}
+:::
+
+:::{.footer}
+Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. 
+<br>Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
+:::
+
+
+###  {background-image="figures/Polymere-01.jpg" background-size="800px" background-position="90% 50%"}
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+`Precursor`:
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+`Embryonic`:
+![](figures/Brunelle-05.png){width=100% fig-align='center'} 
+
+
+::: {.callout-note title="Ex: Vulcanization process"}
+
+Charles Goodyear's discovery of “`vulcanization`” in 1839 made it possible to transform natural rubber into a more durable and elastic material, paving the way for the plastics industry.
+
+:::
+
+:::
+
+:::
+
+:::{.footer}
+
+:::
+
+
+### Industrial emergence → Modèle STAM
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+`Precursor`:
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+`Embryonic`:
+![](figures/Brunelle-05.png){width=100% fig-align='center'} 
+
+`Growth`:
+![](figures/Brunelle-06.png){width=100% fig-align='center'} 
+
+
+:::
+
+![](figures/Phaal-03.png){width=100% fig-align='center'}
+:::
+
+:::{.footer}
+Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. 
+<br>Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
+:::
+
+
+
+###  {background-image="figures/Polymere-02.jpg" background-size="800px" background-position="90% 50%"}
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+`Precursor`:
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+`Embryonic`:
+![](figures/Brunelle-05.png){width=100% fig-align='center'} 
+
+`Growth`:
+![](figures/Brunelle-06.png){width=100% fig-align='center'} 
+
+
+::: {.callout-note title="Ex: Produits de la Vulcanisation"}
+
+“`Vulcanization`” → A plethora of new `plastic materials` → Rapid growth of the plastics industry in the 20th century.
+
+:::
+
+:::
+
+:::
+
+:::{.footer}
+
+:::
+
+
+### Approche de l’émergence industrielle → Modèle STAM
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+`Precursor`:
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+`Embryonic`:
+![](figures/Brunelle-05.png){width=100% fig-align='center'} 
+
+`Growth`:
+![](figures/Brunelle-06.png){width=100% fig-align='center'} 
+
+`Maturity`
+![](figures/Brunelle-07.png){width=100% fig-align='center'} 
+
+:::
+
+![](figures/Phaal-03.png){width=100% fig-align='center'}
+:::
+
+:::{.footer}
+Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. 
+<br>Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
+:::
+
+
+### Modèle STAM 
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+`Precursor`:
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+`Embryonic`:
+![](figures/Brunelle-05.png){width=100% fig-align='center'} 
+
+`Growth`:
+![](figures/Brunelle-06.png){width=100% fig-align='center'} 
+
+`Maturity`
+![](figures/Brunelle-07.png){width=100% fig-align='center'} 
+
+
+
+:::
+
+::: {.callout-note title="Ex: L'explosion des produits plastique ..."}
+![](figures/Plastics-00.png){width=100% fig-align='center' } 
+:::
+
+:::
+
+### Modèle STAM 
+
+:::{layout="[35,-1,65]" layout-valign="top"}
+
+:::{}
+
+
+`Precursor`:
+![](figures/Brunelle-04.png){width=100% fig-align='center'} 
+
+`Embryonic`:
+![](figures/Brunelle-05.png){width=100% fig-align='center'} 
+
+`Growth`:
+![](figures/Brunelle-06.png){width=100% fig-align='center'} 
+
+`Maturity`
+![](figures/Brunelle-07.png){width=100% fig-align='center'} 
+
+
+:::
+
+::: {.callout-note title="Ex: Quelle suite pour le plastique ?"}
+Photo by Chris Jordan (2011), an American photographer who has documented the environmental impact of plastic through visually striking works.
+
+![](figures/Chris-Jordan.jpg){width=100% fig-align='center' } 
+:::
+
+:::
+
 
 
 
@@ -160,20 +462,6 @@ Analysis Fisher-Pry (Logistique curve : Model S)
 ## Technology Readiness → Maturity {.nostretch}
 
 The industrial emergence mapping framework.
-
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-
-:::
-![](figures/Phaal-00.png){width=60% fig-align='center'}
-:::
-
-
-:::{.footer}
-Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
-:::
 
 ## Technology Readiness → Levels
 
@@ -189,19 +477,39 @@ Framework developed in the Aeronautical field.
 Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
 :::
 
-## Technology Readiness → Challenges TRL4 - TRL7
 
-![](figures/TRL-03.png){width="70%" fig-align="center"}
+
+
+### `TLR` → Challenges TRL4 - TRL7 {.smaller}
+
+:::{layout="[50,70]" layout-valign="center"}
+
+:::{}
+
+-   There is a **lack of tools** that can provide insights into **technology-integration** issues at an early R&D phase (TRL 1-5).
+-   This results in a **mismatch between information** need and availability and **complicates decision-making**.
+-   The process requires an **interdisciplinary approach**. The right combination of skills and expertise may not always be available
+
+:::
+
+![](figures/TRL-03.png){width="100%" fig-align="center"}
+
+:::
+
 
 ::: footer
 Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
 :::
 
-## Technology Readiness → Challenges TRL4 - TRL7
 
--   There is a **lack of tools** that can provide insights into **technology-integration** issues at an early R&D phase (TRL 1-5).
--   This results in a **mismatch between information** need and availability and **complicates decision-making**.
--   The process requires an **interdisciplinary approach**. The right combination of skills and expertise may not always be available
+
+## Le Role of the patents in the industrial emergence
+
+![](figures/Brunelle-09.png){width=100% fig-align='center'}
+
+
+
+
 
 ## Technology Readiness → Evolution
 
@@ -297,6 +605,26 @@ So..
 
 # Presentation of tools
 
+## Axis of work
+
+:::{layout="[45,-5,65]" layout-valign="top"}
+
+:::{}
+1. Plastics Traceability
+1. Improving circularity of multilayer flexible plastic packaging
+2. Enhancing ecodesign and upcycling of recycled products
+2. Sorting/Collection at local level
+
+:::
+
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDE3emg5ZHk5bXpycHNnOTcwbGV1NmFvdTZocnBidWtocnYyeXh6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J82gnViB2YLVIbfvZo/giphy.gif){width=100% fig-align=center}
+
+
+
+
+:::
+
 ## The canvas of Step 2
 
 ::: columns
@@ -367,7 +695,7 @@ countdown(minutes = 30, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 
 
-# Step 2b: Patent screening and analysis
+## Step 2b: Patent screening and analysis
 
 :::{layout="[45,-2,50]" layout-valign="top"}
 
@@ -393,7 +721,7 @@ countdown(minutes = 30, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::
 
 
-# Step 2c: Comparing the scientific and the Patent domains
+## Step 2c: Comparing the scientific and the Patent domains
 
 
 ::: columns
@@ -431,7 +759,7 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 
 
 
-#  Web Of Science Patent Database {#wos}
+##  Web Of Science Patent Database {#wos}
 
 ##  Web Of Science Patent Database
 
@@ -640,7 +968,7 @@ This is all for this part 🙂
 
 
 
-# Vosviewer: <br>Landscape <br> visualization  {#sci-vos .unnumbered background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
+## Vosviewer: <br>Landscape <br> visualization  {#sci-vos .unnumbered background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
 
 Scientific Network visualization
 
@@ -847,160 +1175,4 @@ Analysing *Patents Titles*
 
 :::
 
-
-# Vosviewer: Analyzing the Authors {.unnumbered}
-
-![](figures/author.jpg){fig-align="center"}
-
-
-
-## Purpose of VOSviewer tool
-
-1. 🧠 **Knowledge** : 
-   - Use the patent databases to unders a **semantic world of your problematic** based on the **Authors** of the patents.
-
-1. ✍**Competence**  : 
-   - Be able to make a **landscape visualisation** of set of documents from a research question.
-
-We use the database download from **Web Of Science** 📜
-
-## VOSviewer → As made before  {.unnumbered}
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-**🎯 Goal:**
-
-- Load the **`Data`** 
-- Create a  **`CREATE`** 
-- Add <br> **`Create a Map based on BIBLIOGRAPHIC data`** 
-:::
-
-![](figures/vos/12.png)
-
-:::
-
-
-
-## VOSviewer → Type of database
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-
-- Select <br> **`Bibliographic database file`** 
-
-- **`NEXT`** 
-:::
-
-![](figures/vos/13.png)
-:::
-
-## VOSviewer → Type of database
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-- Select <br> **`Web Of Science`** 
-
-- Seek your **`<Filename.txt>`**  on your PC 
-
-- **`NEXT`** 
-:::
-
-![](figures/vos/14.png)
-:::
-
-## VOSviewer → Load of database
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-
-- Select your <br> **`Co-Authorship`** > **`Author`** 
-
-- **`NEXT`** 
-:::
-
-![](figures/vos/15.png)
-:::
-
-
-## VOSviewer → Filters
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-
-- Attention to the filters criteria 
-   - Minimun of Documents
-   - Citations 
-
-- **`NEXT`** 
-:::
-
-![](figures/vos/16.png)
-:::
-
-
-## VOSviewer → Counting
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-
-- Select <br> **`Binary Counting`**  
-
-- **`NEXT`** 
-:::
-
-![](figures/vos/17.png)
-:::
-
-
-## VOSviewer → Authors to be selected
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-- Adjuts the <br> **`Authors to be selected`**  
-
-⚠️ Attention to the possible keywords that pass the filter
-
-- **`NEXT`** 
-:::
-
-![](figures/vos/18.png)
-:::
-
-
-## VOSviewer → Validation of Connections
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-
-- Put **`YES`** 
-
-- **`NEXT`** 
-:::
-
-![](figures/vos/19.png)
-:::
-
-## VOSviewer → Authors Landscape
-
-:::{layout="[50,-2,50]" layout-valign="top"}
-:::{}
-**Network Visualization**
-
-![](figures/vos/20.png)
-:::
-
-:::{}
-**Density Visualization**
-
-![](figures/vos/21.png)
-:::
-
-:::
 
