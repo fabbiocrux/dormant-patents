@@ -652,13 +652,6 @@ So..
 :::
 
 
-As example
-
-
-
-
-
-
 
 :::{.footer}
 Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. ](https://doi.org/10.1007/s11192-009-0146-3)
@@ -689,8 +682,6 @@ Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a compute
 :::
 
 'first come, first served'...
-
-
 
 
 
@@ -791,7 +782,38 @@ countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", pa
 - [VOSviewer: Landscape visualization](#sci-vos)
 
 
-## Example of the Analysis
+## As Example 
+
+### General Idea
+
+![](figures/TD1/Foldarap-02.jpg){width="75%" fig-align="center"}
+
+### General Idea
+
+![](figures/TD1/Literature-review-01.png){width="75%" fig-align="center"}
+
+### From General Idea → Questions (Step 2a)
+
+![](figures/TD1/Ex1-00.png){width="75%" fig-align="center"}
+
+### From Questions → Concepts (Step 2b)
+
+![](figures/TD1/TD1-00.png){width="75%" fig-align="center"}
+
+### From Questions → Concepts (Step 2b)
+
+![](figures/TD1/TD1-01.png){width="75%" fig-align="center"}
+
+
+### From Questions → Concepts (Step 2b)
+
+![](figures/TD1/TD1-02.png){width="75%" fig-align="center"}
+
+
+### From Concepts → Visualization (Step 2c)
+
+
+![Software: VOSviewer](figures/vos/09.jpg){fig-align="center" .lightbox}
 
 ##  Web Of Science Patent Database {#wos}
 
