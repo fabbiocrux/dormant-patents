@@ -666,7 +666,11 @@ Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a compute
 
 
 
-## Axis of work
+## Axis of work { background-image="2026/catalina-00.png" background-size="65%" background-position="50% 50%" }
+
+
+
+## Axis of work { background-image="2026/catalina-00.png" background-size="65%" background-position="50% 50%" background-opacity="0.1" }
 
 :::{layout="[45,-5,65]" layout-valign="top"}
 
@@ -684,6 +688,7 @@ Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a compute
 
 :::
 
+'first come, first served'...
 
 
 
@@ -700,8 +705,8 @@ Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a compute
 
 **🎯 Goal:**
 
-- Based on the canvas, Identify a **research question** from a general topic that you want to study. 
-    - Define two or three specific research topics that complete the general research question. 
+- Based on the canvas, Identify the **boundaries** of the subject
+    - Define two or three specific focus. 
 
 
 ```{r, include=TRUE}
@@ -724,8 +729,10 @@ countdown(minutes = 30, seconds = 00, top = 100, right=50, font_size = "4em", pa
 :::{}
 **🎯 Goal:**
 
-- Identify the *Concepts* and semantic world of the research questions based on the canva. 
+- Identify a problem statement
+- Define the *Concepts* and '*Semantic world*'. 
 - Structure a *replicable search equation* based on the 'Venn Diagram' approach. 
+
 - Use scientific databases [🔗 Web of Science](https://www-webofscience-com.bases-doc.univ-lorraine.fr/wos/woscc/basic-search) 
 
 <br>
