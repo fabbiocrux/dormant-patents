@@ -12,6 +12,7 @@ format:
     slide-number: c/t
     controls: true
     transition: none
+    scrollable: true
     width: 1600
     height: 900
 #    css: ["theme/custom.scss"]
@@ -89,6 +90,7 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 ## Pedagogical goal of this afternoon {.unnumbered}
 
+::: {.incremental}
 
 1. 🧠 **Knowledge** : 
    - Use the patent databases to gain a **semantic world of your problematic**. 
@@ -98,7 +100,7 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 1. ✍**Competence**  : 
    - Be able to make a **landscape visualisation** of patents.
-
+:::
 
 :::{.callout-tip title="🚨 Goal of the Day"}
 
@@ -121,6 +123,8 @@ Before, We need to understand how **Technology Emergency** is made ...
 
 ## What is a *technology* ?
 
+. . .
+
 Technology: `Knowledge` + `Artifact` + `Application`
 
 :::{layout="[30,70]" layout-valign="center"}
@@ -142,7 +146,7 @@ Key questions:
 - 👨‍💻 Can we predict technological substitution?
 :::
 
-:::{}
+:::{.fragment}
 **Engineering relevance:**
 
 1. R&D strategy
@@ -154,7 +158,7 @@ Key questions:
 
 ## Technology Readiness → Maturity {.nostretch}
 
-Analysis Fisher-Pry (Logistique curve : Model S)
+Analysis Fisher-Pry (Logistic curves: Model S)
 
 
 
@@ -162,7 +166,7 @@ Analysis Fisher-Pry (Logistique curve : Model S)
 
 ![](figures/Brunelle-00.png){width=60% fig-align='center'}
 
-:::{}
+:::{.fragment}
 
 - Performance vs Time (S-curve)
 - Technology substitution (Fisher-Pry)
@@ -185,11 +189,14 @@ Analysis Fisher-Pry (Logistique curve : Model S)
 
 [`Precursor` → `Embryonic` → `Nurture` → `Growth` → `Decline / Substitution`]{.r-fit-text}
 
-:::{layout="[35,-1,65]" layout-valign="center"}
+:::{layout="[45,-1,65]" layout-valign="center"}
 
-:::{}
+:::{.small}
 
-- Model STAM (Phaal et al., 2011)
+Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. 
+<br>***A framework for mapping industrial emergence***.<br>Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
+
+
 
 :::
 
@@ -232,12 +239,12 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 
 :::{}
 
-`Precursor`:
+`Precursor`: 
 ![](figures/Brunelle-04.png){width=100% fig-align='center'} 
 
 
 ::: {.callout-note title="Ex: Plastics"}
-The field of **`Plastiqcs`** imply:
+The field of **`Plastics`** imply:
 
 - Notion of *polymers*
 - Concept of molecular chain.
@@ -266,7 +273,7 @@ The field of **`Plastiqcs`** imply:
 `Precursor`:
 ![](figures/Brunelle-04.png){width=100% fig-align='center'} 
 
-`Embryonic`:
+`Embryonic`: 'Technology'
 ![](figures/Brunelle-05.png){width=100% fig-align='center'} 
 
 :::
@@ -320,7 +327,7 @@ Charles Goodyear's discovery of “`vulcanization`” in 1839 made it possible t
 `Embryonic`:
 ![](figures/Brunelle-05.png){width=100% fig-align='center'} 
 
-`Growth`:
+`Growth`: 'Aplications'
 ![](figures/Brunelle-06.png){width=100% fig-align='center'} 
 
 
@@ -348,7 +355,7 @@ Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framewo
 `Embryonic`:
 ![](figures/Brunelle-05.png){width=100% fig-align='center'} 
 
-`Growth`:
+`Growth`: 'Market'
 ![](figures/Brunelle-06.png){width=100% fig-align='center'} 
 
 
@@ -605,39 +612,19 @@ So..
 
 # Presentation of tools
 
-## Axis of work
-
-:::{layout="[45,-5,65]" layout-valign="top"}
-
-:::{}
-1. Plastics Traceability
-1. Improving circularity of multilayer flexible plastic packaging
-2. Enhancing ecodesign and upcycling of recycled products
-2. Sorting/Collection at local level
-
-:::
-
-
-![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDE3emg5ZHk5bXpycHNnOTcwbGV1NmFvdTZocnBidWtocnYyeXh6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J82gnViB2YLVIbfvZo/giphy.gif){width=100% fig-align=center}
-
-
-
-
-:::
-
 ## The canvas of Step 2
 
 ::: columns
 ::: {.column width="30%"}
-![Goal Step 2a : Define the research questions](figures/Step-2a.jpg){fig-align="center"}
+![Goal Step 2a : WH's questions to fefine the boundaries of the subject](figures/Step-2a.jpg){fig-align="center" .lightbox}
 :::
 
 ::: {.column width="30%"}
-![Goal: Define research equation](figures/Step-2b.jpg){fig-align="center"}
+![Goal: Semantic world to define research equation](figures/Step-2b.jpg){fig-align="center" .lightbox}
 :::
 
 ::: {.column width="30%"}
-![Goal Step 2c: Visualize & Analize Patent databases](figures/Step-2c.jpg){fig-align="center"}
+![Goal Step 2c: Visualize landscape of patents](figures/Step-2c.jpg){fig-align="center" .lightbox}
 :::
 
 :::
@@ -648,7 +635,7 @@ So..
 
 :::{layout="[45,-5,45]" layout-valign="top"}
 
-![Software: VOSviewer](figures/vos/09.jpg){fig-align="center"}
+![Software: VOSviewer](figures/vos/09.jpg){fig-align="center" .lightbox}
 
 
 :::{}
@@ -665,9 +652,42 @@ So..
 :::
 
 
+As example
+
+
+
+
+
+
+
 :::{.footer}
 Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. ](https://doi.org/10.1007/s11192-009-0146-3)
 :::
+
+
+
+## Axis of work
+
+:::{layout="[45,-5,65]" layout-valign="top"}
+
+:::{}
+1. Plastics Traceability
+1. Improving circularity of multilayer flexible plastic packaging
+2. Enhancing ecodesign and upcycling of recycled products
+2. Sorting/Collection at local level
+
+:::
+
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDE3emg5ZHk5bXpycHNnOTcwbGV1NmFvdTZocnBidWtocnYyeXh6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J82gnViB2YLVIbfvZo/giphy.gif){width=100% fig-align=center}
+
+
+:::
+
+
+
+
+
 
 
 ## Step 2a: Research conceptualization
